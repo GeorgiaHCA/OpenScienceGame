@@ -1,0 +1,132 @@
+[
+  {
+    "id": "I1",
+    "type": "Insight",
+    "name": "Find Oncogene",
+    "description": null,
+    "copies": 2,
+    "cost": 1,
+    "requirements": [
+      {
+        "type": "Access",
+        "id": "A1"
+      },
+      {
+        "type": "Access",
+        "id": "D1"
+      }
+    ]
+  },
+  {
+    "id": "I2",
+    "type": "Insight",
+    "name": "Find Tumor Biomarker",
+    "description": null,
+    "copies": 2,
+    "cost": 1,
+    "requirements": [
+      {
+        "type": "Access",
+        "id": "A2"
+      },
+      {
+        "type": "Access",
+        "id": "D2"
+      }
+    ]
+  },
+  {
+    "id": "I3",
+    "type": "Insight",
+    "name": "Microtubule Drug Delivery",
+    "description": null,
+    "copies": 2,
+    "cost": 1,
+    "requirements": [
+      {
+        "type": "Access",
+        "id": "A3"
+      },
+      {
+        "type": "Access",
+        "id": "D3"
+      }
+    ]
+  },
+  {
+    "id": "I4",
+    "type": "Insight",
+    "name": "Find Tumor Killing Compound",
+    "description": null,
+    "copies": 2,
+    "cost": 1,
+    "requirements": [
+      {
+        "type": "Access",
+        "id": "A4"
+      },
+      {
+        "type": "Access",
+        "id": "D4"
+      }
+    ]
+  },
+  {
+    "id": "I5",
+    "type": "Insight",
+    "name": "Find Oncogene Propensity",
+    "description": null,
+    "copies": 1,
+    "cost": 1,
+    "requirements": [
+      {
+        "type": "Access",
+        "id": "A5"
+      },
+      {
+        "type": "Access",
+        "id": "D5"
+      },
+      {
+        "type": "Access",
+        "id": "D1"
+      }
+    ]
+  },
+  {
+    "id": "I6",
+    "type": "Insight",
+    "name": "Find New Catalyst",
+    "description": null,
+    "copies": 1,
+    "cost": 1,
+    "requirements": [
+      {
+        "type": "Access",
+        "id": "A4"
+      },
+      {
+        "type": "Access",
+        "id": "D4"
+      }
+    ]
+  },
+  {
+    "id": "I7",
+    "type": "Insight",
+    "name": "Identify Resistance Gene",
+    "description": null,
+    "copies": 1,
+    "cost": 1,
+    "requirements": [
+      {
+        "type": "Access",
+        "id": "D3"
+      },
+      {
+        "type": "Access",
+        "id": "A2"
+      }
+    ]
+  }
+]
