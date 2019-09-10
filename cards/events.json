@@ -107,7 +107,7 @@
                 "type": "Invalidate",
                 "target": "Data Sets",
                 "magnitude": "All",
-                "description": "Return all of your Data Sets that have been Researched but not Disseminated to the Deck"
+                "description": "Return all of your Data Sets that have been Researched but not Published to the Deck"
             }
         ]
     },

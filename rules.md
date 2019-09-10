@@ -4,7 +4,7 @@ Open Science: The Game is a card game that was developed during the eLife Innova
 
 ## Aim
 
-The aim of the game is to **Achieve a Scientific Breakthrough**. In order to do that you must, collaboratively as a group, **Research** and **Disseminate** at least 5 **Insights**.
+The aim of the game is to **Achieve a Scientific Breakthrough**. In order to do that you must, collaboratively as a group, **Research** and **Publish** at least 5 **Insights**.
 
 ## Contents
 
@@ -27,7 +27,7 @@ Setup is now complete, and each player should have 2 cards in their hand.
 
 Players take it in turns. At the start of their turn, a **Player** must draw a card from the **Ideas Deck**. If they draw an **Event** it must be resolved immediately.  They can then take up to 2 additional **Actions** before handing over clockwise to the next player.
 
-The **Group Objective** is to **Research** and **Disseminate** 5 **Insights**. If the **Players** accomplish this the game ends and the **Players** win. 
+The **Group Objective** is to **Research** and **Publish** 5 **Insights**. If the **Players** accomplish this the game ends and the **Players** win. 
 
 In addition to the **Group Objective**, **Players** also have an additional, **Personal Objective** to complete that is determined by their **Role** card. If the **Group Objective** is completed, Players who complete their **Personal Objective** get a **Personal Victory** in addition to the **Group Victory**. If the group objective is not completed all Players **lose**, even if they met their personal objective.
 
@@ -39,7 +39,7 @@ During the game, a **Player** on their current turn may perform up to 2 **Action
 
 - **Ponder**: Draw a card from the **Ideas Deck** add it to their **Hand**.
 - **Research**: Turn an **Idea** card in their **Hand** into a **Research Output** by placing it in front of them on the table.
-- **Disseminate**: **Player** places a **Open Access** or **Restricted Access** token onto one of their **Research Outputs**.
+- **Publish**: **Player** places a **Open Access** or **Restricted Access** token onto one of their **Research Outputs**.
 - **Learn**: Select a **Tool** from either your **Hand** or the **Tool Shop**, and place it under your **Role** Card such that you can see the effect. Each **Player** may only have 2 **Tools** active at any one time. If a **Player** with two active **Tools** chooses to **Learn** a new one, they must return one of the other active **Tools** to their **Hand**. It can then be **Relearned** at a later date.
 - **Teach**: Select a **Tool** from either your **Hand** or your **Active Tools** to the **Active Tools** of another **Player**. 
 
