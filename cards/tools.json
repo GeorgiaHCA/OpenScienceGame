@@ -1,0 +1,184 @@
+[
+  {
+    "id": "T1",
+    "type": "Tool",
+    "name": "protocols.io",
+    "description": null,
+    "copies": 1,
+    "cost": 1,
+    "requirements": [],
+    "effects": [
+      {
+        "type": "Publish",
+        "target": "Experimental Methods",
+        "magnitude": -1,
+        "description": "Takes 1 less Action to Publish a Experimental Method"
+      }
+    ]
+  },
+  {
+    "id": "T2",
+    "type": "Tool",
+    "name": "Github",
+    "description": null,
+    "copies": 1,
+    "cost": 1,
+    "requirements": [],
+    "effects": [
+      {
+        "type": "Publish",
+        "target": "Analytical Methods",
+        "magnitude": -1,
+        "description": "Takes 1 less Action to Publish a Analytical Method"
+      }
+    ]
+  },
+  {
+    "id": "T3",
+    "type": "Tool",
+    "name": "Zenodo",
+    "description": null,
+    "copies": 1,
+    "cost": 1,
+    "requirements": [],
+    "effects": [
+      {
+        "type": "Publish",
+        "target": "Data Sets",
+        "magnitude": -1,
+        "description": "Takes 1 less Action to Publish a Data Set"
+      }
+    ]
+  },
+  {
+    "id": "T4",
+    "type": "Tool",
+    "name": "bioarxiv",
+    "description": null,
+    "copies": 1,
+    "cost": 1,
+    "requirements": [],
+    "effects": [
+      {
+        "type": "Publish",
+        "target": "Insights",
+        "magnitude": -1,
+        "description": "Takes 1 less Action to Publish a Insight"
+      }
+    ]
+  },
+  {
+    "id": "T5",
+    "type": "Tool",
+    "name": "Labstep",
+    "description": null,
+    "copies": 1,
+    "cost": 1,
+    "requirements": [],
+    "effects": [
+      {
+        "type": "Research",
+        "target": "Experimental Methods",
+        "magnitude": -1,
+        "description": "Takes 1 less Action to Research an Experimental Method"
+      }
+    ]
+  },
+  {
+    "id": "T6",
+    "type": "Tool",
+    "name": "OpenTrons Pipetting Robot",
+    "description": null,
+    "copies": 1,
+    "cost": 1,
+    "requirements": [],
+    "effects": [
+      {
+        "type": "Research",
+        "target": "Data Sets",
+        "magnitude": -1,
+        "description": "Takes 1 less Action to Research an Data Set"
+      }
+    ]
+  },
+  {
+    "id": "T7",
+    "type": "Tool",
+    "name": "Python",
+    "description": null,
+    "copies": 1,
+    "cost": 1,
+    "requirements": [],
+    "effects": [
+      {
+        "type": "Research",
+        "target": "Analytical Methods",
+        "magnitude": -1,
+        "description": "Takes 1 less Action to Research an Analytical Method"
+      }
+    ]
+  },
+  {
+    "id": "T9",
+    "type": "Tool",
+    "name": "Google Calendar",
+    "description": null,
+    "copies": 1,
+    "cost": 1,
+    "requirements": [],
+    "effects": [
+      {
+        "type": "Action",
+        "magnitude": 1,
+        "description": "Takes 1 extra Action per turn"
+      }
+    ]
+  },
+  {
+    "id": "T10",
+    "type": "Tool",
+    "name": "Sci-hub",
+    "description": null,
+    "copies": 1,
+    "cost": 1,
+    "requirements": [],
+    "effects": [
+      {
+        "type": "Access",
+        "description": "You now have Access to Restricted Access Research Outputs"
+      }
+    ]
+  },
+  {
+    "id": "T11",
+    "type": "Tool",
+    "name": "RIO Journal",
+    "description": null,
+    "copies": 1,
+    "cost": 1,
+    "requirements": [],
+    "effects": [
+      {
+        "type": "Search",
+        "cost": 2,
+        "description": "For 2 Actions you may Search the Deck for an Idea, add it to your hand and reshuffle the Deck."
+      }
+    ]
+  },
+  {
+    "id": "T12",
+    "type": "Tool",
+    "name": "Twitter",
+    "description": null,
+    "copies": 1,
+    "cost": 1,
+    "requirements": [],
+    "effects": [
+      {
+        "type": "Forsight",
+        "cost": 1,
+        "description": "For an Action you may look at the top 3 Cards on the Idea Deck. Place them back on top in the same order"
+      }
+    ]
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "id": "D1",
+    "type": "Data Set",
+    "name": "Tumour Genome Sequence",
+    "description": null,
+    "copies": 2,
+    "cost": 1,
+    "requirements": [
+      {
+        "type": "Access",
+        "id": "E1"
+      }
+    ]
+  },
+  {
+    "id": "D2",
+    "type": "Data Set",
+    "name": "Fluorescence Assay Measurements",
+    "description": null,
+    "copies": 2,
+    "cost": 1,
+    "requirements": [
+      {
+        "type": "Access",
+        "id": "E2"
+      }
+    ]
+  },
+  {
+    "id": "D3",
+    "type": "Data Set",
+    "name": "Fragment Sequences",
+    "description": null,
+    "copies": 2,
+    "cost": 1,
+    "requirements": [
+      {
+        "type": "Access",
+        "id": "E3"
+      }
+    ]
+  },
+  {
+    "id": "D4",
+    "type": "Data Set",
+    "name": "Microscopy Images",
+    "description": null,
+    "copies": 2,
+    "cost": 1,
+    "requirements": [
+      {
+        "type": "Access",
+        "id": "E4"
+      }
+    ]
+  },
+  {
+    "id": "D5",
+    "type": "Data Set",
+    "name": "Population Sequence Database",
+    "description": null,
+    "copies": 1,
+    "cost": 1,
+    "requirements": [
+      {
+        "type": "Access",
+        "id": "E5"
+      }
+    ]
+  },
+  {
+    "id": "D6",
+    "type": "Data Set",
+    "name": "NMR Spectra",
+    "description": null,
+    "copies": 1,
+    "cost": 1,
+    "requirements": [
+      {
+        "type": "Access",
+        "id": "A6"
+      }
+    ]
+  }
+]
