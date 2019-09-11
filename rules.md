@@ -41,7 +41,7 @@ During the game, a **Player** on their current turn may perform up to 2 **Action
 - **Research**: Turn an **Idea** card in their **Hand** into a **Research Output** by placing it in front of them on the table.
 - **Disseminate**: **Player** places a **Open Access** or **Restricted Access** token onto one of their **Research Outputs**.
 - **Learn**: Select a **Tool** from either your **Hand** or the **Tool Pool**, and place it under your **Role** Card such that you can see the effect. Each **Player** may only have 2 **Tools** active at any one time. If a **Player** with two active **Tools** chooses to **Learn** a new one, they must return one of the other active **Tools** to their **Hand**. It can then be **Relearned** at a later date.
-- **Teach**: Select a **Tool** from either your **Hand** or your **Active Tools** to the **Active Tools** of another **Player**. 
+- **Teach**: Select a **Tool** from either your **Hand** or your **Active Tools** to **Teach** to another **Player**. This **Tool** immediately becomes **Active** for that **Player**. If they are at their limit for **Active Tools** they may choose one to **Forget**.
 
 ## Cards
 
