@@ -9,6 +9,8 @@
     height: 89mm;
     width: 63mm;
     padding: 5mm;
+    display: flex;
+    flex-direction: column;
   }
 </style>
 

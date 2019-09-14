@@ -1,4 +1,7 @@
 <style>
+  li {
+    font-size: 3mm;
+  }
   .container {
     width: 100%;
     padding: 2mm 0mm;
