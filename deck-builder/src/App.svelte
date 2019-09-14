@@ -1,5 +1,20 @@
 <script>
-  import Card from "./Cards/Idea/Card.svelte";
+  import Card from "./Card/Card.svelte";
+
+  let card = {
+    id: "D1",
+    type: "Role",
+    subType: "Data Set",
+    name: "Tumour Genome Sequence",
+    description: null,
+    cost: 1,
+    requirements: [
+      {
+        type: "Access",
+        id: "E1"
+      }
+    ]
+  };
 </script>
 
-<Card borderColor="#F2C94C" />
+<Card {card} />

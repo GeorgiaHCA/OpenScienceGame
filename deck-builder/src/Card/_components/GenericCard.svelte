@@ -1,5 +1,5 @@
 <script>
-  export let borderColor = "#FFFFFF";
+  export let color = "#FFFFFF";
 </script>
 
 <style>
@@ -12,6 +12,6 @@
   }
 </style>
 
-<div style="border-color: {borderColor}">
+<div style="border-color: {color}">
   <slot />
 </div>

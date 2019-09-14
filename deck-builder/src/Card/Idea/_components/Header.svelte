@@ -1,11 +1,17 @@
 <script>
-  import IdeaIdentifier from "./IdeaIdentifier.svelte";
+  import Cost from "Card/_components/Cost.svelte";
+  import Identifier from "./Identifier.svelte";
   export let color = "#F2C94C";
+  export let requirements = [];
+  export let cost = 1;
 </script>
 
 <style>
   .container {
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
   .color-bar {
     height: 3mm;
@@ -20,6 +26,9 @@
 </style>
 
 <div class="container">
-  <IdeaIdentifier {color} />
+  <Identifier size="large" {color} />
   <div class="color-bar" style="background-color: {color}" />
+  <div class="requirements">
+    <Cost size="medium" />
+  </div>
 </div>
