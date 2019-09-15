@@ -11,9 +11,11 @@
     padding: 5mm;
     display: flex;
     flex-direction: column;
+    background-color: white;
+    margin: 3mm;
   }
 </style>
 
-<div style="border-color: {color}">
+<div id="card" style="border-color: {color}">
   <slot />
 </div>

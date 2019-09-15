@@ -9,9 +9,13 @@
 <style>
   .container {
     position: relative;
+  }
+  .content {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: relative;
+    z-index: 2;
   }
   .color-bar {
     height: 3mm;
@@ -21,14 +25,15 @@
     position: absolute;
     top: 50%;
     transform: translate(0, -50%);
-    z-index: -1;
   }
 </style>
 
 <div class="container">
-  <Identifier size="large" {color} />
   <div class="color-bar" style="background-color: {color}" />
-  <div class="requirements">
-    <Cost size="medium" />
+  <div class="content">
+    <Identifier size="large" {color} />
+    <div class="requirements">
+      <Cost size="medium" />
+    </div>
   </div>
 </div>

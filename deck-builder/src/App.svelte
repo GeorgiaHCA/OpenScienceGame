@@ -1,5 +1,18 @@
 <script>
+  import Deck from "./Deck/Deck.svelte";
   import Card from "./Card/Card.svelte";
+  import htmlToImage from "html-to-image";
+
+  const download = () => {
+    htmlToImage
+      .toJpeg(document.getElementById("card"), { backgroundColor: "white" })
+      .then(function(dataUrl) {
+        var link = document.createElement("a");
+        link.download = "card.jpeg";
+        link.href = dataUrl;
+        link.click();
+      });
+  };
 
   let card = {
     id: "E1",
@@ -20,4 +33,4 @@
   };
 </script>
 
-<Card {card} />
+<Deck />
