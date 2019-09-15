@@ -1,5 +1,9 @@
+<script>
+  export let text = "Dummy Text";
+</script>
+
 <style>
-  li {
+  .text {
     font-size: 3mm;
   }
   .container {
@@ -10,8 +14,9 @@
   }
 </style>
 
-<li>
-  <div class="container">
+<div class="container">
+  <div>
     <slot />
   </div>
-</li>
+  <div class="text">{text}</div>
+</div>

@@ -76,7 +76,7 @@
     "type": "Idea",
     "subType": "Insight",
     "set": "B",
-    "name": "Find Tumor Biomarker",
+    "name": "Find Tumor Killing Compound",
     "description": null,
     "copies": 2,
     "cost": 1,
@@ -119,7 +119,7 @@
     "type": "Idea",
     "subType": "Insight",
     "set": "C",
-    "name": "Microtubule Drug Delivery",
+    "name": "Find Tumor Biomarker",
     "description": null,
     "copies": 2,
     "cost": 1,
@@ -162,7 +162,7 @@
     "type": "Idea",
     "subType": "Insight",
     "set": "D",
-    "name": "Find Tumor Killing Compound",
+    "name": "Find Drug Delivery Method",
     "description": null,
     "copies": 2,
     "cost": 1,
@@ -171,31 +171,11 @@
       { "type": "Access", "id": "D4" }
     ]
   },
-  "M5": {
-    "type": "Idea",
-    "subType": "Experimental Method",
-    "set": "E",
-    "name": "Illumina Sequencing",
-    "description": null,
-    "copies": 1,
-    "cost": 1,
-    "requirements": []
-  },
-  "D5": {
-    "type": "Idea",
-    "subType": "Data Set",
-    "set": "E",
-    "name": "Population Sequence Database",
-    "description": null,
-    "copies": 1,
-    "cost": 1,
-    "requirements": [{ "type": "Access", "id": "M5" }]
-  },
   "A5": {
     "type": "Idea",
     "subType": "Analytical Method",
     "set": "E",
-    "name": "ANOVA",
+    "name": "Population Analysis",
     "description": null,
     "copies": 1,
     "cost": 1,
@@ -211,8 +191,7 @@
     "cost": 1,
     "requirements": [
       { "type": "Access", "id": "A5" },
-      { "type": "Access", "id": "D5" },
-      { "type": "Access", "id": "D1" }
+      { "type": "Access", "id": "I1" }
     ]
   },
   "M6": {

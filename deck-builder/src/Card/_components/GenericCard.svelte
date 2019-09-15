@@ -4,7 +4,7 @@
 
 <style>
   div {
-    border: 1mm solid;
+    border: 2mm solid;
     border-radius: 4mm;
     height: 89mm;
     width: 63mm;

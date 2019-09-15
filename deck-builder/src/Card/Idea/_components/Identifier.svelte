@@ -1,7 +1,7 @@
 <script>
-  export let color = "#C4C4C4";
-  export let content = "X";
+  export let card = {};
   export let size = "small";
+  import getCardColor from "_utils/getCardColor.js";
 
   let scale;
 
@@ -23,7 +23,6 @@
 
 <style>
   .container {
-    display: inline-block;
     border: solid;
     background-color: white;
     margin: 1mm;
@@ -39,7 +38,7 @@
 
 <div
   class="container"
-  style="border-color: {color}; height: {scale}mm; width:{scale}mm;
-  border-radius: {scale}mm; border-width: {scale / 10}mm">
-  <div class="content" style="font-size: {scale / 2}mm">{content}</div>
+  style="border-color: {getCardColor(card)}; height: {scale}mm; width:{scale}mm;
+  border-radius: {scale}mm; border-width: {scale / 8}mm">
+  <div class="content" style="font-size: {scale / 2}mm">{card.set}</div>
 </div>

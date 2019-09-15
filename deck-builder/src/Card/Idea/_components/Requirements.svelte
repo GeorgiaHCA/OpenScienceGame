@@ -1,9 +1,8 @@
 <script>
   import ListItem from "Card/_components/ListItem.svelte";
+  import Identifier from "./Identifier.svelte";
   import Cost from "Card/_components/Cost.svelte";
-  import AccessRequirement from "./AccessRequirement.svelte";
   export let requirements = [];
-  $: console.log(requirements);
 </script>
 
 <style>
@@ -20,14 +19,12 @@
 
 <div class="container">
   <div class="header">Research Requirements</div>
-  <ul>
-    {#each requirements as requirement}
-      <AccessRequirement card={requirement.card} />
-    {/each}
-    <ListItem>
-      Takes
-      <Cost content="1" size="small" />
-      Action
+  {#each requirements as requirement}
+    <ListItem text="Access to {requirement.card.name}">
+      <Identifier card={requirement.card} size="medium" />
     </ListItem>
-  </ul>
+  {/each}
+  <ListItem text="Action">
+    <Cost content="1" size="medium" />
+  </ListItem>
 </div>
