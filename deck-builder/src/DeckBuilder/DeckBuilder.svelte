@@ -4,7 +4,9 @@
   import EventUploader from "./EventUploader/EventUploader.svelte";
   import ToolUploader from "./ToolUploader/ToolUploader.svelte";
   import RoleUploader from "./RoleUploader/RoleUploader.svelte";
+  import DeckDownloader from "./DeckDownloader/DeckDownloader.svelte";
 
+  let cards = {};
   let stage = 1;
   let component;
   $: {
@@ -21,14 +23,17 @@
       case 4:
         component = ToolUploader;
         break;
+      case 5:
+        component = DeckDownloader;
+        break;
     }
   }
 </script>
 
-<svelte:component this={component} />
+<svelte:component this={component} bind:cards />
 {#if stage > 1}
   <button on:click={() => (stage -= 1)}>Previous</button>
 {/if}
-{#if stage < 4}
+{#if stage < 5}
   <button on:click={() => (stage += 1)}>Next</button>
 {/if}

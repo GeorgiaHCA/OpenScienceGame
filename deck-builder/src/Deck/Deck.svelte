@@ -3,6 +3,7 @@
   import CardBack from "Card/CardBack.svelte";
 
   export let cards = {};
+  export let showBack = false;
 </script>
 
 <style>
@@ -15,7 +16,9 @@
 </style>
 
 <div class="container">
-  <CardBack />
+  {#if showBack}
+    <CardBack />
+  {/if}
   {#each Object.values(cards) as card}
     <Card {card} />
   {/each}

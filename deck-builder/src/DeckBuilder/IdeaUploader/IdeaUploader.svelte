@@ -1,7 +1,7 @@
 <script>
   import GenericUploadScreen from "../_components/GenericUploadSceen.svelte";
-
-  const parseCards = cards => {
+  export let cards = {};
+  const cardParser = cards => {
     for (let id in cards) {
       cards[id].requirements.forEach(r => {
         if (r.id) {
@@ -13,4 +13,8 @@
   };
 </script>
 
-<GenericUploadScreen title="Ideas" {parseCards} />
+<GenericUploadScreen
+  title="Ideas"
+  {cardParser}
+  displayFilter={card => card.type == 'Idea'}
+  bind:cards />

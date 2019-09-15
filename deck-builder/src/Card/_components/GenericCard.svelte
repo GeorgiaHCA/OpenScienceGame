@@ -3,7 +3,7 @@
 </script>
 
 <style>
-  div {
+  .card {
     border: 2mm solid;
     border-radius: 4mm;
     height: 89mm;
@@ -16,6 +16,6 @@
   }
 </style>
 
-<div id="card" style="border-color: {color}">
+<div class="card" style="border-color: {color}">
   <slot />
 </div>
