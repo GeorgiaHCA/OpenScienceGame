@@ -2,7 +2,7 @@
   import Card from "Card/Card.svelte";
   import CardBack from "Card/CardBack.svelte";
 
-  export let cards = [];
+  export let cards = {};
 </script>
 
 <style>
@@ -16,7 +16,7 @@
 
 <div class="container">
   <CardBack />
-  {#each cards as card}
+  {#each Object.values(cards) as card}
     <Card {card} />
   {/each}
 </div>

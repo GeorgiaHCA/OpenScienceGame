@@ -5,7 +5,7 @@
     cards.forEach(card => {
       card.requirements.forEach(r => {
         if (r.id) {
-          r.card = cards.filter(c => c.id === r.id)[0];
+          r.card = cards[id];
         }
       });
     });
