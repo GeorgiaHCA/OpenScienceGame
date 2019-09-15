@@ -2,6 +2,7 @@
   "M1": {
     "type": "Idea",
     "subType": "Experimental Method",
+    "set": "A",
     "name": "Nanopore Sequencing",
     "description": null,
     "copies": 2,
@@ -11,6 +12,7 @@
   "D1": {
     "type": "Idea",
     "subType": "Data Set",
+    "set": "A",
     "name": "Tumour Genome Sequence",
     "description": null,
     "copies": 2,
@@ -20,6 +22,7 @@
   "A1": {
     "type": "Idea",
     "subType": "Analytical Method",
+    "set": "A",
     "name": "Genome Sequence Comparison",
     "description": null,
     "copies": 2,
@@ -29,6 +32,7 @@
   "I1": {
     "type": "Idea",
     "subType": "Insight",
+    "set": "A",
     "name": "Find Oncogene",
     "description": null,
     "copies": 2,
@@ -41,6 +45,7 @@
   "M2": {
     "type": "Idea",
     "subType": "Experimental Method",
+    "set": "B",
     "name": "Compound Library Synthesis & Screening",
     "description": null,
     "copies": 2,
@@ -50,15 +55,17 @@
   "D2": {
     "type": "Idea",
     "subType": "Data Set",
+    "set": "B",
     "name": "Fluorescence Assay Measurements",
     "description": null,
     "copies": 2,
     "cost": 1,
-    "requirements": [{ "type": "Access", "id": "E2" }]
+    "requirements": [{ "type": "Access", "id": "M2" }]
   },
   "A2": {
     "type": "Idea",
     "subType": "Analytical Method",
+    "set": "B",
     "name": "T-tests",
     "description": null,
     "copies": 2,
@@ -68,6 +75,7 @@
   "I2": {
     "type": "Idea",
     "subType": "Insight",
+    "set": "B",
     "name": "Find Tumor Biomarker",
     "description": null,
     "copies": 2,
@@ -80,6 +88,7 @@
   "M3": {
     "type": "Idea",
     "subType": "Experimental Method",
+    "set": "C",
     "name": "Phage Display",
     "description": null,
     "copies": 2,
@@ -89,15 +98,17 @@
   "D3": {
     "type": "Idea",
     "subType": "Data Set",
+    "set": "C",
     "name": "Fragment Sequences",
     "description": null,
     "copies": 2,
     "cost": 1,
-    "requirements": [{ "type": "Access", "id": "E3" }]
+    "requirements": [{ "type": "Access", "id": "M3" }]
   },
   "A3": {
     "type": "Idea",
     "subType": "Analytical Method",
+    "set": "C",
     "name": "Sequence Alignment",
     "description": null,
     "copies": 2,
@@ -107,6 +118,7 @@
   "I3": {
     "type": "Idea",
     "subType": "Insight",
+    "set": "C",
     "name": "Microtubule Drug Delivery",
     "description": null,
     "copies": 2,
@@ -119,6 +131,7 @@
   "M4": {
     "type": "Idea",
     "subType": "Experimental Method",
+    "set": "D",
     "name": "Drug Delivery Assay",
     "description": null,
     "copies": 2,
@@ -128,15 +141,17 @@
   "D4": {
     "type": "Idea",
     "subType": "Data Set",
+    "set": "D",
     "name": "Microscopy Images",
     "description": null,
     "copies": 2,
     "cost": 1,
-    "requirements": [{ "type": "Access", "id": "E4" }]
+    "requirements": [{ "type": "Access", "id": "M4" }]
   },
   "A4": {
     "type": "Idea",
     "subType": "Analytical Method",
+    "set": "D",
     "name": "Image Processing",
     "description": null,
     "copies": 2,
@@ -146,6 +161,7 @@
   "I4": {
     "type": "Idea",
     "subType": "Insight",
+    "set": "D",
     "name": "Find Tumor Killing Compound",
     "description": null,
     "copies": 2,
@@ -158,6 +174,7 @@
   "M5": {
     "type": "Idea",
     "subType": "Experimental Method",
+    "set": "E",
     "name": "Illumina Sequencing",
     "description": null,
     "copies": 1,
@@ -167,15 +184,17 @@
   "D5": {
     "type": "Idea",
     "subType": "Data Set",
+    "set": "E",
     "name": "Population Sequence Database",
     "description": null,
     "copies": 1,
     "cost": 1,
-    "requirements": [{ "type": "Access", "id": "E5" }]
+    "requirements": [{ "type": "Access", "id": "M5" }]
   },
   "A5": {
     "type": "Idea",
     "subType": "Analytical Method",
+    "set": "E",
     "name": "ANOVA",
     "description": null,
     "copies": 1,
@@ -185,6 +204,7 @@
   "I5": {
     "type": "Idea",
     "subType": "Insight",
+    "set": "E",
     "name": "Find Oncogene Propensity",
     "description": null,
     "copies": 1,
@@ -198,6 +218,7 @@
   "M6": {
     "type": "Idea",
     "subType": "Experimental Method",
+    "set": "F",
     "name": "Chemical Synthesis",
     "description": null,
     "copies": 1,
@@ -207,6 +228,7 @@
   "D6": {
     "type": "Idea",
     "subType": "Data Set",
+    "set": "F",
     "name": "NMR Spectra",
     "description": null,
     "copies": 1,
@@ -216,6 +238,7 @@
   "A6": {
     "type": "Idea",
     "subType": "Analytical Method",
+    "set": "F",
     "name": "Spectrum Analysis",
     "description": null,
     "copies": 1,
@@ -225,6 +248,7 @@
   "I6": {
     "type": "Idea",
     "subType": "Insight",
+    "set": "F",
     "name": "Find New Catalyst",
     "description": null,
     "copies": 1,
@@ -237,6 +261,7 @@
   "I7": {
     "type": "Idea",
     "subType": "Insight",
+    "set": "G",
     "name": "Identify Resistance Gene",
     "description": null,
     "copies": 1,

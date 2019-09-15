@@ -12,9 +12,9 @@
 </script>
 
 <GenericCard {color}>
-  <Header {color} />
+  <Header set={card.set} requirements={card.requirements} {color} />
   <Flavour name={card.name} />
   <Type name={type} />
   <Divider />
-  <Requirements />
+  <Requirements requirements={card.requirements} />
 </GenericCard>

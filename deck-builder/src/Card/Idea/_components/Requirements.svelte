@@ -2,7 +2,8 @@
   import ListItem from "Card/_components/ListItem.svelte";
   import Cost from "Card/_components/Cost.svelte";
   import AccessRequirement from "./AccessRequirement.svelte";
-  export let requirements = ["Card A", "Card B"];
+  export let requirements = [];
+  $: console.log(requirements);
 </script>
 
 <style>
@@ -21,7 +22,7 @@
   <div class="header">Research Requirements</div>
   <ul>
     {#each requirements as requirement}
-      <AccessRequirement card={requirement} />
+      <AccessRequirement card={requirement.card} />
     {/each}
     <ListItem>
       Takes

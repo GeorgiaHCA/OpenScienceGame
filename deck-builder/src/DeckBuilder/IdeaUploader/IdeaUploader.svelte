@@ -2,14 +2,15 @@
   import GenericUploadScreen from "../_components/GenericUploadSceen.svelte";
 
   const parseCards = cards => {
-    cards.forEach(card => {
-      card.requirements.forEach(r => {
+    for (let id in cards) {
+      cards[id].requirements.forEach(r => {
         if (r.id) {
-          r.card = cards[id];
+          r.card = cards[r.id];
         }
       });
-    });
+    }
+    return cards;
   };
 </script>
 
-<GenericUploadScreen title="Ideas" />
+<GenericUploadScreen title="Ideas" {parseCards} />

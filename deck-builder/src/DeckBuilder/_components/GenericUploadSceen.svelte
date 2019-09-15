@@ -2,13 +2,13 @@
   import Deck from "./Deck/Deck.svelte";
   import Card from "./Card/Card.svelte";
   import readFile from "_utils/readFile.js";
-  import objectify from "_utils/objectify.js";
 
   let cards = {};
   export let title = "Tools";
   export let parseCards = cards => cards;
   const upload = evt =>
-    readFile(evt, data => (cards = parseCards(objectify(JSON.parse(data)))));
+    readFile(evt, data => (cards = parseCards(JSON.parse(data))));
+  $: console.log(cards);
 </script>
 
 <style>

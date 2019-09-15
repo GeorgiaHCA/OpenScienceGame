@@ -10,10 +10,10 @@
   $: {
     switch (stage) {
       case 1:
-        component = RoleUploader;
+        component = IdeaUploader;
         break;
       case 2:
-        component = IdeaUploader;
+        component = RoleUploader;
         break;
       case 3:
         component = EventUploader;

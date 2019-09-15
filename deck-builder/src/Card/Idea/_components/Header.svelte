@@ -1,6 +1,7 @@
 <script>
   import Cost from "Card/_components/Cost.svelte";
   import Identifier from "./Identifier.svelte";
+  export let set = "X";
   export let color = "#F2C94C";
   export let requirements = [];
   export let cost = 1;
@@ -31,8 +32,11 @@
 <div class="container">
   <div class="color-bar" style="background-color: {color}" />
   <div class="content">
-    <Identifier size="large" {color} />
+    <Identifier size="large" content={set} {color} />
     <div class="requirements">
+      {#each requirements as requirement}
+        <Identifier size="medium" content={requirement.card.set} />
+      {/each}
       <Cost size="medium" />
     </div>
   </div>
