@@ -5,8 +5,8 @@ const files = fs.readdirSync(root);
 
 files.forEach(file => {
   const path = root + file;
-  const file = fs.readFileSync(path);
-  const array = JSON.parse(file);
+  const raw = fs.readFileSync(path);
+  const array = JSON.parse(raw);
   const object = objectify(array);
   fs.writeFileSync(path, JSON.stringify(object));
 });

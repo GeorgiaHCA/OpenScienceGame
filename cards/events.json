@@ -1,6 +1,5 @@
-[
-  {
-    "id": "E1",
+{
+  "E1": {
     "type": "Event",
     "name": "Attend Licensing Workshop",
     "description": null,
@@ -15,8 +14,7 @@
       }
     ]
   },
-  {
-    "id": "E2",
+  "E2": {
     "type": "Event",
     "name": "Run a Workshop",
     "description": null,
@@ -31,8 +29,7 @@
       }
     ]
   },
-  {
-    "id": "E3",
+  "E3": {
     "type": "Event",
     "name": "Research Funding Cuts",
     "description": null,
@@ -47,8 +44,7 @@
       }
     ]
   },
-  {
-    "id": "E4",
+  "E4": {
     "type": "Event",
     "name": "University Cancels Elsevier Subscription",
     "description": null,
@@ -63,8 +59,7 @@
       }
     ]
   },
-  {
-    "id": "E5",
+  "E5": {
     "type": "Event",
     "name": "Move to a Lab with an Old School Prof",
     "description": null,
@@ -79,8 +74,7 @@
       }
     ]
   },
-  {
-    "id": "E6",
+  "E6": {
     "type": "Event",
     "name": "Open Access Budget Cuts",
     "description": null,
@@ -95,8 +89,7 @@
       }
     ]
   },
-  {
-    "id": "E7",
+  "E7": {
     "type": "Event",
     "name": "Harddrive Failure",
     "description": null,
@@ -111,8 +104,7 @@
       }
     ]
   },
-  {
-    "id": "E8",
+  "E8": {
     "type": "Event",
     "name": "Attend a Conference",
     "description": null,
@@ -126,8 +118,7 @@
       }
     ]
   },
-  {
-    "id": "E9",
+  "E9": {
     "type": "Event",
     "name": "Grant Application Deadline Approaching",
     "description": null,
@@ -140,8 +131,7 @@
       }
     ]
   },
-  {
-    "id": "E10",
+  "E10": {
     "type": "Event",
     "name": "Teach a Lecture Course",
     "description": null,
@@ -155,8 +145,7 @@
       }
     ]
   },
-  {
-    "id": "E11",
+  "E11": {
     "type": "Event",
     "name": "Mini Grant Accepted!",
     "description": null,
@@ -170,23 +159,7 @@
       }
     ]
   },
-  {
-    "id": "E12",
-    "type": "Event",
-    "name": "Sign Contract with Industry Sponsor",
-    "description": null,
-    "copies": 1,
-    "requirements": [],
-    "effects": [
-      {
-        "type": "Publish Restriction",
-        "target": "Experimental Methods",
-        "description": "You can no longer Publish Experimental Methods"
-      }
-    ]
-  },
-  {
-    "id": "E12",
+  "E12": {
     "type": "Event",
     "name": "Major Grant Accepted",
     "description": null,
@@ -201,8 +174,7 @@
       }
     ]
   },
-  {
-    "id": "E13",
+  "E13": {
     "type": "Event",
     "name": "Career Change",
     "description": null,
@@ -215,8 +187,7 @@
       }
     ]
   },
-  {
-    "id": "E14",
+  "E14": {
     "type": "Event",
     "name": "Take a Vacation",
     "description": null,
@@ -234,22 +205,7 @@
       }
     ]
   },
-  {
-    "id": "E15",
-    "type": "Event",
-    "name": "Attend Open Science Event",
-    "description": null,
-    "copies": 1,
-    "requirements": [],
-    "effects": [
-      {
-        "type": "Search",
-        "description": "Search the Tool Deck for a Tool and add it to your Hand."
-      }
-    ]
-  },
-  {
-    "id": "E15",
+  "E15": {
     "type": "Event",
     "name": "Attend Departmental Seminar",
     "description": null,
@@ -262,8 +218,7 @@
       }
     ]
   },
-  {
-    "id": "E16",
+  "E16": {
     "type": "Event",
     "global": true,
     "name": "Retraction Notice",
@@ -279,8 +234,7 @@
       }
     ]
   },
-  {
-    "id": "E17",
+  "E17": {
     "type": "Event",
     "global": true,
     "name": "Reproducability Crisis",
@@ -296,8 +250,7 @@
       }
     ]
   },
-  {
-    "id": "E18",
+  "E18": {
     "type": "Event",
     "global": true,
     "name": "Falsified Data",
@@ -313,8 +266,7 @@
       }
     ]
   },
-  {
-    "id": "E19",
+  "E19": {
     "type": "Event",
     "global": true,
     "name": "Bug Report",
@@ -330,8 +282,7 @@
       }
     ]
   },
-  {
-    "id": "E20",
+  "E20": {
     "type": "Event",
     "global": true,
     "name": "Embargo Period Ends",
@@ -347,4 +298,4 @@
       }
     ]
   }
-]
+}
