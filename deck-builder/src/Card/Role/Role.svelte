@@ -9,18 +9,29 @@
   export let card = {};
 </script>
 
+<style>
+  img {
+    width: 4mm;
+    margin: 2mm;
+  }
+</style>
+
 <GenericCard color="#AF0404">
   <Type name="Role" />
   <Flavour name={card.name} />
   <Divider />
   <ListSection header="Skills">
     {#each card.skills as skill}
-      <ListItem>{skill.descripion}</ListItem>
+      <ListItem text={skill.description}>
+        <img alt="icon" src="skill.svg" />
+      </ListItem>
     {/each}
   </ListSection>
   <ListSection header="Limitations">
     {#each card.limitations as limitation}
-      <ListItem>{limitation.descripion}</ListItem>
+      <ListItem text={limitation.description}>
+        <img alt="icon" src="limitation.svg" />
+      </ListItem>
     {/each}
   </ListSection>
 </GenericCard>

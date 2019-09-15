@@ -8,7 +8,7 @@
   }
   .container {
     width: 100%;
-    padding: 2mm 0mm;
+    padding: 1mm 0mm;
     display: flex;
     align-items: center;
   }

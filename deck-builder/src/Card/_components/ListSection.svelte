@@ -11,13 +11,12 @@
     padding: 3mm 0mm;
   }
   .header {
-    font-size: 2mm;
+    font-size: 2.5mm;
+    padding: 1mm;
   }
 </style>
 
 <div class="container">
   <div class="header">{header}</div>
-  <ul>
-    <slot />
-  </ul>
+  <slot />
 </div>
