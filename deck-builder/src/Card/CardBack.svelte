@@ -19,6 +19,6 @@
 
 <GenericCard>
   <div class="logo-container">
-    <img class="logo" src="./logo.svg" />
+    <img class="logo" alt="logo" src="./logo.svg" />
   </div>
 </GenericCard>

@@ -261,5 +261,90 @@
         "description": "Look at the top 3 Cards in the Idea Deck and replace in the same order."
       }
     ]
+  },
+  {
+    "id": "E16",
+    "type": "Event",
+    "global": true,
+    "name": "Retraction Notice",
+    "description": null,
+    "copies": 1,
+    "requirements": [],
+    "effects": [
+      {
+        "type": "Retraction",
+        "target": "Insights",
+        "magnitude": 1,
+        "description": "Return 1 Published Insight back into the Ideas Deck"
+      }
+    ]
+  },
+  {
+    "id": "E17",
+    "type": "Event",
+    "global": true,
+    "name": "Reproducability Crisis",
+    "description": null,
+    "copies": 1,
+    "requirements": [],
+    "effects": [
+      {
+        "type": "Retraction",
+        "target": "Experimental Methods",
+        "magnitude": 1,
+        "description": "Return 1 Published Experimental Method back into the Ideas Deck, along with any dependant Research Outputs."
+      }
+    ]
+  },
+  {
+    "id": "E18",
+    "type": "Event",
+    "global": true,
+    "name": "Falsified Data",
+    "description": null,
+    "copies": 1,
+    "requirements": [],
+    "effects": [
+      {
+        "type": "Retraction",
+        "target": "Data Sets",
+        "magnitude": 1,
+        "description": "Return 1 Published Data Set back into the Ideas Deck, along with any dependant Research Outputs."
+      }
+    ]
+  },
+  {
+    "id": "E19",
+    "type": "Event",
+    "global": true,
+    "name": "Bug Report",
+    "description": "Someone found a bug in your code!",
+    "copies": 1,
+    "requirements": [],
+    "effects": [
+      {
+        "type": "Retraction",
+        "target": "Analytical Methods",
+        "magnitude": 1,
+        "description": "Return 1 Published Analytical Method back into the Ideas Deck, along with any dependant Research Outputs."
+      }
+    ]
+  },
+  {
+    "id": "E20",
+    "type": "Event",
+    "global": true,
+    "name": "Embargo Period Ends",
+    "description": null,
+    "copies": 1,
+    "requirements": [],
+    "effects": [
+      {
+        "type": "Access Flip",
+        "target": "Restricted Access Research Outputs",
+        "magnitude": 1,
+        "description": "Each Player may convert 1 Published Research Output from Restricted Access to Open Access"
+      }
+    ]
   }
 ]
