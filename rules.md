@@ -16,7 +16,7 @@ The game consists of a series of cards and tokens.
 - Seperate the **Starting Idea** cards from the **Ideas Deck**, and deal two to each player.
 - Shuffle the **Event** cards, remaining **Starting Ideas** and other **Ideas** together to form the **Ideas Deck**. 
 - Place the **Ideas Deck** face down on the playing table.
-- Suffle the **Tool** cards, and place the top 3 cards face up on the playing table to form the **Tool Pool**.
+- Suffle the **Tool** cards, and place the top 3 cards face up on the playing table to form the **Tool Box**.
 - Place the rest of the **Tool** cards face down on the playing table to form the **Tool Deck**.
 - Place **Open Access** and **Restricted Access** tokens in a pile in the playing area.
 - Choose which **Player** will go first. As a suggestion, perhaps who travelled the furthest to join.
@@ -33,14 +33,14 @@ In addition to the **Group Objective**, **Players** also have an additional **Pe
 
 If the group **Run Out of Ideas** (i.e. a **Player** cannot draw a card from the **Ideas Deck** at the start of their turn) the game is lost.
 
-## Actions
+## Turn
 
 During the game, a **Player** on their current turn may perform up to 2 **Actions**. The list of possible **Actions** are given below. **Players** can choose to play 2 of the same **Action**.
 
 - **Ponder**: Draw a card from the **Ideas Deck** add it to their **Hand**.
 - **Research**: Turn an **Idea** card in their **Hand** into a **Research Output** by placing it in front of them on the table.
 - **Publish**: **Player** places a **Open Access** or **Restricted Access** token onto one of their **Research Outputs**.
-- **Learn**: Select a **Tool** from either your **Hand** or the **Tool Pool**, and place it under your **Role** Card such that you can see the effect. Each **Player** may only have 2 **Tools** active at any one time. If a **Player** with two active **Tools** chooses to **Learn** a new one, they must return one of the other active **Tools** to their **Hand**. It can then be **Relearned** at a later date.
+- **Learn**: Select a **Tool** from either your **Hand** or the **Tool Box**, and place it under your **Role** Card such that you can see the effect. Each **Player** may only have 2 **Tools** active at any one time. If a **Player** with two active **Tools** chooses to **Learn** a new one, they must return one of the other active **Tools** to their **Hand**. It can then be **Relearned** at a later date.
 - **Teach**: Select a **Tool** from either your **Hand** or your **Active Tools** to **Teach** to another **Player**. This **Tool** immediately becomes **Active** for that **Player**. If they are at their limit for **Active Tools** they may choose one to **Forget**.
 
 ## Cards
