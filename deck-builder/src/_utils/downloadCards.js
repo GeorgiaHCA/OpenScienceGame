@@ -1,6 +1,5 @@
 import htmlToImage from "html-to-image";
 import JSZip from "jszip";
-import FileSaver from "file-saver";
 
 export default () => {
   let zip = new JSZip();
@@ -12,11 +11,13 @@ export default () => {
   Promise.all(cardImages)
     .then(images => {
       images.forEach((image, i) => {
-        zip.file("card" + i + ".jpeg", image);
+        var idx = image.indexOf("base64,") + "base64,".length; // or = 28 if you're sure about the prefix
+        var content = image.substring(idx);
+        zip.file("card" + i + ".jpeg", content, { base64: true });
       });
     })
     .then(() => zip.generateAsync({ type: "blob" }))
     .then(function(content) {
-      FileSaver.saveAs(content, "cards.zip");
+      window.saveAs(content, "cards.zip");
     });
 };
