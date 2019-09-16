@@ -1,6 +1,5 @@
-[
-  {
-    "id": "T1",
+{
+  "T1": {
     "type": "Tool",
     "name": "protocols.io",
     "description": null,
@@ -16,8 +15,7 @@
       }
     ]
   },
-  {
-    "id": "T2",
+  "T2": {
     "type": "Tool",
     "name": "Github",
     "description": null,
@@ -33,8 +31,7 @@
       }
     ]
   },
-  {
-    "id": "T3",
+  "T3": {
     "type": "Tool",
     "name": "Zenodo",
     "description": null,
@@ -50,8 +47,7 @@
       }
     ]
   },
-  {
-    "id": "T4",
+  "T4": {
     "type": "Tool",
     "name": "bioarxiv",
     "description": null,
@@ -63,12 +59,11 @@
         "type": "Publish",
         "target": "Insights",
         "magnitude": -1,
-        "description": "Takes 1 less Action to Publish a Insight Open Access."
+        "description": "Takes 1 less Action to Publish a Insight"
       }
     ]
   },
-  {
-    "id": "T5",
+  "T5": {
     "type": "Tool",
     "name": "Labstep",
     "description": null,
@@ -84,8 +79,7 @@
       }
     ]
   },
-  {
-    "id": "T6",
+  "T6": {
     "type": "Tool",
     "name": "OpenTrons Pipetting Robot",
     "description": null,
@@ -101,8 +95,7 @@
       }
     ]
   },
-  {
-    "id": "T7",
+  "T7": {
     "type": "Tool",
     "name": "Python",
     "description": null,
@@ -118,8 +111,7 @@
       }
     ]
   },
-  {
-    "id": "T9",
+  "T9": {
     "type": "Tool",
     "name": "Google Calendar",
     "description": null,
@@ -134,8 +126,7 @@
       }
     ]
   },
-  {
-    "id": "T10",
+  "T10": {
     "type": "Tool",
     "name": "Sci-hub",
     "description": null,
@@ -149,8 +140,7 @@
       }
     ]
   },
-  {
-    "id": "T11",
+  "T11": {
     "type": "Tool",
     "name": "RIO Journal",
     "description": null,
@@ -165,8 +155,7 @@
       }
     ]
   },
-  {
-    "id": "T12",
+  "T12": {
     "type": "Tool",
     "name": "Twitter",
     "description": null,
@@ -181,8 +170,7 @@
       }
     ]
   },
-  {
-    "id": "T13",
+  "T13": {
     "type": "Tool",
     "name": "One Note",
     "description": null,
@@ -197,4 +185,4 @@
       }
     ]
   }
-]
+}
