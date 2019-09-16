@@ -28,6 +28,8 @@
 </style>
 
 <h1>{title}</h1>
-<span>Upload a json with your {title} cards</span>
-<input type="file" accept=".json" on:change={upload} />
+<div>
+  <span>Upload a json with your {title} cards</span>
+  <input type="file" accept=".json" on:change={upload} />
+</div>
 <Deck cards={displayCards} />

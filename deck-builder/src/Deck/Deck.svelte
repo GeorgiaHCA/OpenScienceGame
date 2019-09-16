@@ -14,6 +14,7 @@
     flex-wrap: wrap;
     background: #f4f4f4;
     height: 100%;
+    min-width: 100%;
     overflow: auto;
   }
 </style>

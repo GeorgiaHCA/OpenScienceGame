@@ -30,22 +30,12 @@
   }
 </script>
 
-<style>
-  .screen {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-  }
-</style>
-
-<div class="screen">
-  <svelte:component this={component} bind:cards />
-  <div>
-    {#if stage > 1}
-      <button on:click={() => (stage -= 1)}>Previous</button>
-    {/if}
-    {#if stage < 5}
-      <button on:click={() => (stage += 1)}>Next</button>
-    {/if}
-  </div>
+<svelte:component this={component} bind:cards />
+<div>
+  {#if stage > 1}
+    <button on:click={() => (stage -= 1)}>Previous</button>
+  {/if}
+  {#if stage < 5}
+    <button on:click={() => (stage += 1)}>Next</button>
+  {/if}
 </div>
