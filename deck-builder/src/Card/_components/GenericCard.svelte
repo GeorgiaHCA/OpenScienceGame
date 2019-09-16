@@ -16,6 +16,10 @@
   }
 </style>
 
-<div class="card" style="border-color: {color}">
-  <slot />
+<div class='card-container'>
+  <div class="card" style="border-color: {color}">
+    <slot />
+  </div>
 </div>
+
+

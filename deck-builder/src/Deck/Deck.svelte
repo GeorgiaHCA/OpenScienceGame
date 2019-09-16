@@ -9,9 +9,12 @@
 <style>
   .container {
     display: flex;
+    flex-direction: column;
+    flex-grow: 1;
     flex-wrap: wrap;
-    width: 100%;
     background: #f4f4f4;
+    height: 100%;
+    overflow: auto;
   }
 </style>
 

@@ -233,8 +233,8 @@
     "copies": 1,
     "cost": 1,
     "requirements": [
-      { "type": "Access", "id": "A4" },
-      { "type": "Access", "id": "D4" }
+      { "type": "Access", "id": "A6" },
+      { "type": "Access", "id": "D6" }
     ]
   },
   "I7": {

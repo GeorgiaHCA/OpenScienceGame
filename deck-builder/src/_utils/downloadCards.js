@@ -3,7 +3,7 @@ import JSZip from "jszip";
 
 export default () => {
   let zip = new JSZip();
-  const cards = document.querySelectorAll(".card");
+  const cards = document.querySelectorAll(".card-container");
   let cardImages = [];
   for (let card of cards) {
     cardImages.push(htmlToImage.toJpeg(card, { backgroundColor: "white" }));
@@ -11,7 +11,7 @@ export default () => {
   Promise.all(cardImages)
     .then(images => {
       images.forEach((image, i) => {
-        var idx = image.indexOf("base64,") + "base64,".length; // or = 28 if you're sure about the prefix
+        var idx = image.indexOf("base64,") + "base64,".length;
         var content = image.substring(idx);
         zip.file("card" + i + ".jpeg", content, { base64: true });
       });
