@@ -180,5 +180,21 @@
         "description": "For an Action you may look at the top 3 Cards on the Idea Deck. Place them back on top in the same order"
       }
     ]
+  },
+  {
+    "id": "T13",
+    "type": "Tool",
+    "name": "One Note",
+    "description": null,
+    "copies": 1,
+    "cost": 1,
+    "requirements": [],
+    "effects": [
+      {
+        "type": "Remember",
+        "cost": 1,
+        "description": "For an Action look through your Forgotten Ideas and Tools and return one to your Hand."
+      }
+    ]
   }
 ]
