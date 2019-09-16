@@ -43,6 +43,9 @@ During the game, a **Player** on their current turn may perform up to 2 **Action
 - **Learn**: Select a **Tool** from either your **Hand** or the **Tool Box**, and place it under your **Role** Card such that you can see the effect. Each **Player** may only have 2 **Tools** active at any one time. If a **Player** with two active **Tools** chooses to **Learn** a new one, they must return one of the other active **Tools** to their **Hand**. It can then be **Relearned** at a later date.
 - **Teach**: Select a **Tool** from either your **Hand** or your **Active Tools** to **Teach** to another **Player**. This **Tool** immediately becomes **Active** for that **Player**. If they are at their limit for **Active Tools** they may choose one to **Forget**.
 
+At the end of their turn the Player must discard **Idea** / **Tool** cards from their **Hand** until they reach the **Hand Limit** of 7 cards. The discarded cards are put face down in a pile next to each **Player** and are said to be **Forgotten**.
+
+
 ## Cards
 
 ### **Idea**
