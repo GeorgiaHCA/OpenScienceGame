@@ -63,7 +63,7 @@
         "type": "Publish",
         "target": "Insights",
         "magnitude": -1,
-        "description": "Takes 1 less Action to Publish a Insight"
+        "description": "Takes 1 less Action to Publish a Insight Open Access."
       }
     ]
   },
