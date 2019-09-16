@@ -1,0 +1,82 @@
+[
+    {
+        "id": "GE1",
+        "type": "Global Event",
+        "name": "Retraction Notice",
+        "description": null,
+        "copies": 1,
+        "requirements": [],
+        "effects": [
+            {
+                "type": "Retraction",
+                "target": "Insights",
+                "magnitude": 1,
+                "description": "Return 1 Published Insight back into the Ideas Deck"
+            }
+        ]
+    },
+    {
+        "id": "GE2",
+        "type": "Global Event",
+        "name": "Reproducability Crisis",
+        "description": null,
+        "copies": 1,
+        "requirements": [],
+        "effects": [
+            {
+                "type": "Retraction",
+                "target": "Experimental Methods",
+                "magnitude": 1,
+                "description": "Return 1 Published Experimental Method back into the Ideas Deck, along with any dependant Research Outputs."
+            }
+        ]
+    },
+    {
+        "id": "GE3",
+        "type": "Global Event",
+        "name": "Falsified Data",
+        "description": null,
+        "copies": 1,
+        "requirements": [],
+        "effects": [
+            {
+                "type": "Retraction",
+                "target": "Data Sets",
+                "magnitude": 1,
+                "description": "Return 1 Published Data Set back into the Ideas Deck, along with any dependant Research Outputs."
+            }
+        ]
+    },
+    {
+        "id": "GE4",
+        "type": "Global Event",
+        "name": "Bug Report",
+        "description": "Someone found a bug in your code!",
+        "copies": 1,
+        "requirements": [],
+        "effects": [
+            {
+                "type": "Retraction",
+                "target": "Analytical Methods",
+                "magnitude": 1,
+                "description": "Return 1 Published Analytical Method back into the Ideas Deck, along with any dependant Research Outputs."
+            }
+        ]
+    },
+    {
+        "id": "GE5",
+        "type": "Global Event",
+        "name": "Embargo Period Ends",
+        "description": null,
+        "copies": 1,
+        "requirements": [],
+        "effects": [
+            {
+                "type": "Access Flip",
+                "target": "Restricted Access Research Outputs",
+                "magnitude": 1,
+                "description": "Each Player may convert 1 Published Research Output from Restricted Access to Open Access"
+            }
+        ]
+    }
+]
