@@ -12,14 +12,15 @@
     width: 500px;
   }
   button {
+    margin-bottom: 50px;
     border: none;
-    padding: 10px;
-    background: linear-gradient(
-      90deg,
-      #a2bacc 0%,
-      rgba(57, 169, 255, 0.630208) 0.01%,
-      rgba(162, 186, 204, 0.24) 100.43%
-    );
+    padding: 10px 20px;
+    color: #1162a1;
+    background: #c7f1ff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  button:hover {
+    box-shadow: none;
   }
 </style>
 
@@ -28,6 +29,8 @@
     <Logo />
   </div>
   {#if screen == 'Home'}
-    <button on:click={() => (screen = 'Builder')}>Build Your Deck</button>
+    <button on:click={() => (screen = 'Builder')}>
+      Start Building Your Deck
+    </button>
   {/if}
 {/if}
