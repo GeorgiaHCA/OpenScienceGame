@@ -1,0 +1,253 @@
+{
+  "M1": {
+    "type": "Idea",
+    "subType": "Experimental Method",
+    "set": "A",
+    "name": "Nanopore Sequencing",
+    "description": null,
+    "copies": 2,
+    "cost": 1,
+    "requirements": []
+  },
+  "D1": {
+    "type": "Idea",
+    "subType": "Data Set",
+    "set": "A",
+    "name": "Tumour Genome Sequence",
+    "description": null,
+    "copies": 2,
+    "cost": 1,
+    "requirements": [{ "type": "Access", "id": "M1" }]
+  },
+  "A1": {
+    "type": "Idea",
+    "subType": "Analytical Method",
+    "set": "A",
+    "name": "Genome Sequence Comparison",
+    "description": null,
+    "copies": 2,
+    "cost": 1,
+    "requirements": []
+  },
+  "I1": {
+    "type": "Idea",
+    "subType": "Insight",
+    "set": "A",
+    "name": "Find Oncogene",
+    "description": null,
+    "copies": 2,
+    "cost": 1,
+    "requirements": [
+      { "type": "Access", "id": "A1" },
+      { "type": "Access", "id": "D1" }
+    ]
+  },
+  "M2": {
+    "type": "Idea",
+    "subType": "Experimental Method",
+    "set": "B",
+    "name": "Compound Library Synthesis & Screening",
+    "description": null,
+    "copies": 2,
+    "cost": 1,
+    "requirements": []
+  },
+  "D2": {
+    "type": "Idea",
+    "subType": "Data Set",
+    "set": "B",
+    "name": "Fluorescence Assay Measurements",
+    "description": null,
+    "copies": 2,
+    "cost": 1,
+    "requirements": [{ "type": "Access", "id": "M2" }]
+  },
+  "A2": {
+    "type": "Idea",
+    "subType": "Analytical Method",
+    "set": "B",
+    "name": "T-tests",
+    "description": null,
+    "copies": 2,
+    "cost": 1,
+    "requirements": []
+  },
+  "I2": {
+    "type": "Idea",
+    "subType": "Insight",
+    "set": "B",
+    "name": "Find Tumor Killing Compound",
+    "description": null,
+    "copies": 2,
+    "cost": 1,
+    "requirements": [
+      { "type": "Access", "id": "A2" },
+      { "type": "Access", "id": "D2" }
+    ]
+  },
+  "M3": {
+    "type": "Idea",
+    "subType": "Experimental Method",
+    "set": "C",
+    "name": "Phage Display",
+    "description": null,
+    "copies": 2,
+    "cost": 1,
+    "requirements": []
+  },
+  "D3": {
+    "type": "Idea",
+    "subType": "Data Set",
+    "set": "C",
+    "name": "Fragment Sequences",
+    "description": null,
+    "copies": 2,
+    "cost": 1,
+    "requirements": [{ "type": "Access", "id": "M3" }]
+  },
+  "A3": {
+    "type": "Idea",
+    "subType": "Analytical Method",
+    "set": "C",
+    "name": "Sequence Alignment",
+    "description": null,
+    "copies": 2,
+    "cost": 1,
+    "requirements": []
+  },
+  "I3": {
+    "type": "Idea",
+    "subType": "Insight",
+    "set": "C",
+    "name": "Find Tumor Biomarker",
+    "description": null,
+    "copies": 2,
+    "cost": 1,
+    "requirements": [
+      { "type": "Access", "id": "A3" },
+      { "type": "Access", "id": "D3" }
+    ]
+  },
+  "M4": {
+    "type": "Idea",
+    "subType": "Experimental Method",
+    "set": "D",
+    "name": "Drug Delivery Assay",
+    "description": null,
+    "copies": 2,
+    "cost": 1,
+    "requirements": []
+  },
+  "D4": {
+    "type": "Idea",
+    "subType": "Data Set",
+    "set": "D",
+    "name": "Microscopy Images",
+    "description": null,
+    "copies": 2,
+    "cost": 1,
+    "requirements": [{ "type": "Access", "id": "M4" }]
+  },
+  "A4": {
+    "type": "Idea",
+    "subType": "Analytical Method",
+    "set": "D",
+    "name": "Image Processing",
+    "description": null,
+    "copies": 2,
+    "cost": 1,
+    "requirements": []
+  },
+  "I4": {
+    "type": "Idea",
+    "subType": "Insight",
+    "set": "D",
+    "name": "Find Drug Delivery Method",
+    "description": null,
+    "copies": 2,
+    "cost": 1,
+    "requirements": [
+      { "type": "Access", "id": "A4" },
+      { "type": "Access", "id": "D4" }
+    ]
+  },
+  "A5": {
+    "type": "Idea",
+    "subType": "Analytical Method",
+    "set": "E",
+    "name": "Population Analysis",
+    "description": null,
+    "copies": 1,
+    "cost": 1,
+    "requirements": [{ "subType": "Access", "id": "A2" }]
+  },
+  "I5": {
+    "type": "Idea",
+    "subType": "Insight",
+    "set": "E",
+    "name": "Find Oncogene Propensity",
+    "description": null,
+    "copies": 1,
+    "cost": 1,
+    "requirements": [
+      { "type": "Access", "id": "A5" },
+      { "type": "Access", "id": "I1" }
+    ]
+  },
+  "M6": {
+    "type": "Idea",
+    "subType": "Experimental Method",
+    "set": "F",
+    "name": "Chemical Synthesis",
+    "description": null,
+    "copies": 1,
+    "cost": 1,
+    "requirements": []
+  },
+  "D6": {
+    "type": "Idea",
+    "subType": "Data Set",
+    "set": "F",
+    "name": "NMR Spectra",
+    "description": null,
+    "copies": 1,
+    "cost": 2,
+    "requirements": [{ "type": "Access", "id": "A6" }]
+  },
+  "A6": {
+    "type": "Idea",
+    "subType": "Analytical Method",
+    "set": "F",
+    "name": "Spectrum Analysis",
+    "description": null,
+    "copies": 1,
+    "cost": 1,
+    "requirements": [{ "type": "Access", "id": "A2" }]
+  },
+  "I6": {
+    "type": "Idea",
+    "subType": "Insight",
+    "set": "F",
+    "name": "Find New Catalyst",
+    "description": null,
+    "copies": 1,
+    "cost": 2,
+    "requirements": [
+      { "type": "Access", "id": "A6" },
+      { "type": "Access", "id": "D6" }
+    ]
+  },
+  "I7": {
+    "type": "Idea",
+    "subType": "Insight",
+    "set": "G",
+    "name": "Identify Resistance Gene",
+    "description": null,
+    "copies": 1,
+    "cost": 1,
+    "requirements": [
+      { "type": "Access", "id": "D3" },
+      { "type": "Access", "id": "A2" }
+    ]
+  }
+}
