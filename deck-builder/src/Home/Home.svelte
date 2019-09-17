@@ -15,8 +15,8 @@
     margin-bottom: 50px;
     border: none;
     padding: 10px 20px;
-    color: #1162a1;
-    background: #c7f1ff;
+    background-color: #41c178;
+    color: white;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }
   button:hover {

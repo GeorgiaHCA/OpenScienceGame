@@ -30,10 +30,28 @@
   }
 </script>
 
+<style>
+  button {
+    flex-grow: 1;
+    border: none;
+    color: white;
+    margin: 0px 2px;
+    background-color: #1162a1;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  button:hover {
+    box-shadow: none;
+  }
+  .button-container {
+    display: flex;
+    width: 100%;
+  }
+</style>
+
 <svelte:component this={component} bind:cards />
-<div>
+<div class="button-container">
   {#if stage > 1}
-    <button on:click={() => (stage -= 1)}>Previous</button>
+    <button on:click={() => (stage -= 1)}>Back</button>
   {/if}
   {#if stage < 5}
     <button on:click={() => (stage += 1)}>Next</button>
