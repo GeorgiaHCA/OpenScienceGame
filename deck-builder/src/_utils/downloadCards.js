@@ -6,14 +6,16 @@ export default () => {
   const cards = document.querySelectorAll(".card-container");
   let cardImages = [];
   for (let card of cards) {
-    cardImages.push(htmlToImage.toJpeg(card, { backgroundColor: "white" }));
+    cardImages.push(htmlToImage.toSvgDataURL(card));
   }
   Promise.all(cardImages)
     .then(images => {
       images.forEach((image, i) => {
-        var idx = image.indexOf("base64,") + "base64,".length;
-        var content = image.substring(idx);
-        zip.file("card" + i + ".jpeg", content, { base64: true });
+        var idx =
+          image.indexOf("data:image/svg+xml;charset=utf-8,") +
+          "data:image/svg+xml;charset=utf-8,".length;
+        var content = decodeURIComponent(image.substring(idx));
+        zip.file("card" + i + ".svg", content);
       });
     })
     .then(() => zip.generateAsync({ type: "blob" }))

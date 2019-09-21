@@ -67,3 +67,8 @@ button:active {
 button:focus {
   border-color: #666;
 }
+@media print {
+  button {
+    display: none;
+  }
+}
