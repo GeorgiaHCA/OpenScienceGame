@@ -3,6 +3,7 @@
   import Card from "./Card/Card.svelte";
   import downloadCards from "_utils/downloadCards.js";
   export let cards = {};
+  let mode = "cards";
 </script>
 
 <style>
@@ -21,6 +22,16 @@
   }
 </style>
 
-<h1>Your Deck</h1>
-<Deck showBack={true} {cards} />
-<button on:click={downloadCards}>Download Cards</button>
+{#if mode == 'print'}
+  <Deck print={true} showBack={false} {cards} />
+{:else}
+  <h1>Your Deck</h1>
+  <button on:click={downloadCards}>Download Cards</button>
+  <button
+    on:click={() => {
+      mode = 'print';
+    }}>
+    Printable Page
+  </button>
+  <Deck showBack={true} {cards} />
+{/if}
