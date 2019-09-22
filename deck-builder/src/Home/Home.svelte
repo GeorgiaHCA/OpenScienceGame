@@ -1,6 +1,7 @@
 <script>
+  import Button from "DeckBuilder/_components/Button.svelte";
   import Logo from "Logo/Logo.svelte";
-  import { fade } from "svelte/transition";
+  import { fade, fly } from "svelte/transition";
   export let screen = "Home";
   let itistime = false;
   setTimeout(() => (itistime = true), 20);
@@ -11,26 +12,34 @@
     flex-grow: 1;
     width: 500px;
   }
-  button {
-    margin-bottom: 50px;
-    border: none;
-    padding: 10px 20px;
-    background-color: #41c178;
-    color: white;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  div {
+    color: #7e7e7e;
   }
-  button:hover {
-    box-shadow: none;
+  .button-container {
+    width: 30%;
+    margin: 5mm;
+    text-align: center;
+  }
+  .label {
+    position: relative;
+    top: -25mm;
+    padding-right: 5mm;
+    text-align: right;
+    font-size: xx-large;
   }
 </style>
 
-{#if itistime}
-  <div transition:fade={{ duration: 3000 }} class="main">
-    <Logo />
-  </div>
-  {#if screen == 'Home'}
-    <button on:click={() => (screen = 'Builder')}>
-      Start Building Your Deck
-    </button>
+{#if screen == 'Home'}
+  {#if itistime}
+    <div in:fade={{ duration: 3000 }} class="main">
+      <Logo />
+      <div class="label" in:fly={{ x: 200, duration: 2000 }}>The Game</div>
+    </div>
   {/if}
+  <div class="button-container">
+    <Button primary onClick={() => (screen = 'Builder')}>
+      Start Building Your Deck
+    </Button>
+  </div>
 {/if}
