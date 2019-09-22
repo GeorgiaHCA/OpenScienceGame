@@ -2,7 +2,7 @@
   "M1": {
     "type": "Idea",
     "subType": "Experimental Method",
-    "set": "A",
+    "icon": "icons/oncogene.svg",
     "name": "Nanopore Sequencing",
     "description": null,
     "copies": 2,
@@ -12,7 +12,7 @@
   "D1": {
     "type": "Idea",
     "subType": "Data Set",
-    "set": "A",
+    "icon": "icons/oncogene.svg",
     "name": "Tumour Genome Sequence",
     "description": null,
     "copies": 2,
@@ -22,7 +22,7 @@
   "A1": {
     "type": "Idea",
     "subType": "Analytical Method",
-    "set": "A",
+    "icon": "icons/oncogene.svg",
     "name": "Genome Sequence Comparison",
     "description": null,
     "copies": 2,
@@ -32,7 +32,7 @@
   "I1": {
     "type": "Idea",
     "subType": "Insight",
-    "set": "A",
+    "icon": "icons/oncogene.svg",
     "name": "Find Oncogene",
     "description": null,
     "copies": 2,
@@ -45,7 +45,7 @@
   "M2": {
     "type": "Idea",
     "subType": "Experimental Method",
-    "set": "B",
+    "icon": "icons/tumor-kill.svg",
     "name": "Compound Library Synthesis & Screening",
     "description": null,
     "copies": 2,
@@ -55,7 +55,7 @@
   "D2": {
     "type": "Idea",
     "subType": "Data Set",
-    "set": "B",
+    "icon": "icons/tumor-kill.svg",
     "name": "Fluorescence Assay Measurements",
     "description": null,
     "copies": 2,
@@ -65,7 +65,7 @@
   "A2": {
     "type": "Idea",
     "subType": "Analytical Method",
-    "set": "B",
+    "icon": "icons/tumor-kill.svg",
     "name": "T-tests",
     "description": null,
     "copies": 2,
@@ -75,7 +75,7 @@
   "I2": {
     "type": "Idea",
     "subType": "Insight",
-    "set": "B",
+    "icon": "icons/tumor-kill.svg",
     "name": "Find Tumor Killing Compound",
     "description": null,
     "copies": 2,
@@ -88,7 +88,7 @@
   "M3": {
     "type": "Idea",
     "subType": "Experimental Method",
-    "set": "C",
+    "icon": "icons/biomarker.svg",
     "name": "Phage Display",
     "description": null,
     "copies": 2,
@@ -98,7 +98,7 @@
   "D3": {
     "type": "Idea",
     "subType": "Data Set",
-    "set": "C",
+    "icon": "icons/biomarker.svg",
     "name": "Fragment Sequences",
     "description": null,
     "copies": 2,
@@ -108,7 +108,7 @@
   "A3": {
     "type": "Idea",
     "subType": "Analytical Method",
-    "set": "C",
+    "icon": "icons/biomarker.svg",
     "name": "Sequence Alignment",
     "description": null,
     "copies": 2,
@@ -118,7 +118,7 @@
   "I3": {
     "type": "Idea",
     "subType": "Insight",
-    "set": "C",
+    "icon": "icons/biomarker.svg",
     "name": "Find Tumor Biomarker",
     "description": null,
     "copies": 2,
@@ -131,7 +131,7 @@
   "M4": {
     "type": "Idea",
     "subType": "Experimental Method",
-    "set": "D",
+    "icon": "icons/delivery.svg",
     "name": "Drug Delivery Assay",
     "description": null,
     "copies": 2,
@@ -141,7 +141,7 @@
   "D4": {
     "type": "Idea",
     "subType": "Data Set",
-    "set": "D",
+    "icon": "icons/delivery.svg",
     "name": "Microscopy Images",
     "description": null,
     "copies": 2,
@@ -151,7 +151,7 @@
   "A4": {
     "type": "Idea",
     "subType": "Analytical Method",
-    "set": "D",
+    "icon": "icons/delivery.svg",
     "name": "Image Processing",
     "description": null,
     "copies": 2,
@@ -161,7 +161,7 @@
   "I4": {
     "type": "Idea",
     "subType": "Insight",
-    "set": "D",
+    "icon": "icons/delivery.svg",
     "name": "Find Drug Delivery Method",
     "description": null,
     "copies": 2,
@@ -174,7 +174,7 @@
   "A5": {
     "type": "Idea",
     "subType": "Analytical Method",
-    "set": "E",
+    "icon": "icons/propensity.svg",
     "name": "Population Analysis",
     "description": null,
     "copies": 1,
@@ -184,7 +184,7 @@
   "I5": {
     "type": "Idea",
     "subType": "Insight",
-    "set": "E",
+    "icon": "icons/propensity.svg",
     "name": "Find Oncogene Propensity",
     "description": null,
     "copies": 1,
@@ -197,7 +197,7 @@
   "M6": {
     "type": "Idea",
     "subType": "Experimental Method",
-    "set": "F",
+    "icon": "icons/catalyst.svg",
     "name": "Chemical Synthesis",
     "description": null,
     "copies": 1,
@@ -207,7 +207,7 @@
   "D6": {
     "type": "Idea",
     "subType": "Data Set",
-    "set": "F",
+    "icon": "icons/catalyst.svg",
     "name": "NMR Spectra",
     "description": null,
     "copies": 1,
@@ -217,7 +217,7 @@
   "A6": {
     "type": "Idea",
     "subType": "Analytical Method",
-    "set": "F",
+    "icon": "icons/catalyst.svg",
     "name": "Spectrum Analysis",
     "description": null,
     "copies": 1,
@@ -227,7 +227,7 @@
   "I6": {
     "type": "Idea",
     "subType": "Insight",
-    "set": "F",
+    "icon": "icons/catalyst.svg",
     "name": "Find New Catalyst",
     "description": null,
     "copies": 1,
@@ -240,7 +240,7 @@
   "I7": {
     "type": "Idea",
     "subType": "Insight",
-    "set": "G",
+    "icon": "icons/resistance.svg",
     "name": "Identify Resistance Gene",
     "description": null,
     "copies": 1,

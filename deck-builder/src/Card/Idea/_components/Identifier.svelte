@@ -7,16 +7,16 @@
 
   switch (size) {
     case "small":
-      scale = 3;
+      scale = 2;
       break;
     case "medium":
-      scale = 5;
+      scale = 4;
       break;
     case "large":
-      scale = 10;
+      scale = 9;
       break;
     default:
-      scale = 10;
+      scale = 9;
       break;
   }
 </script>
@@ -26,19 +26,21 @@
     border: solid;
     background-color: white;
     margin: 1mm;
+    box-sizing: content-box;
   }
-  .content {
+  img {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
-    text-align: center;
-    line-height: 100%;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
   }
 </style>
 
 <div
   class="container"
   style="border-color: {getCardColor(card)}; height: {scale}mm; width:{scale}mm;
-  border-radius: {scale}mm; border-width: {scale / 8}mm">
-  <div class="content" style="font-size: {scale / 2}mm">{card.set}</div>
+  border-radius: {scale}mm; border-width: {scale / 8}mm; padding: {scale / 10}mm;">
+  <img alt="identifier-icon" src={card.icon} />
 </div>
