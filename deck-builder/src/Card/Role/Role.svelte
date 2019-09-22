@@ -23,14 +23,14 @@
   <ListSection header="Skills">
     {#each card.skills as skill}
       <ListItem text={skill.description}>
-        <img alt="icon" src="skill.svg" />
+        <img alt="icon" src="icons/skill.svg" />
       </ListItem>
     {/each}
   </ListSection>
   <ListSection header="Limitations">
     {#each card.limitations as limitation}
       <ListItem text={limitation.description}>
-        <img alt="icon" src="limitation.svg" />
+        <img alt="icon" src="icons/limitation.svg" />
       </ListItem>
     {/each}
   </ListSection>

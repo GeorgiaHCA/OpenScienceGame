@@ -8,7 +8,7 @@ export default () => {
   for (let card of cards) {
     cardImages.push(htmlToImage.toSvgDataURL(card));
   }
-  Promise.all(cardImages)
+  return Promise.all(cardImages)
     .then(images => {
       images.forEach((image, i) => {
         var idx =

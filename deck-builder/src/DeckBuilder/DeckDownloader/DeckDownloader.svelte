@@ -3,7 +3,19 @@
   import Card from "./Card/Card.svelte";
   import downloadCards from "_utils/downloadCards.js";
   export let cards = {};
+  let loading = false;
   let mode = "cards";
+  $: {
+    if (mode == "print") {
+      setTimeout(() => {
+        window.print();
+      }, 50);
+    }
+  }
+  const download = () => {
+    loading = true;
+    downloadCards().then(() => (loading = false));
+  };
 </script>
 
 <style>
@@ -20,18 +32,34 @@
   button:hover {
     box-shadow: none;
   }
+  .loading-screen {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    line-height: 100vh;
+    text-align: center;
+    z-index: 1000;
+  }
 </style>
 
 {#if mode == 'print'}
   <Deck print={true} showBack={false} {cards} />
 {:else}
   <h1>Your Deck</h1>
-  <button on:click={downloadCards}>Download Cards</button>
+  <button on:click={download}>Download Cards</button>
   <button
     on:click={() => {
       mode = 'print';
     }}>
-    Printable Page
+    Print PDF
   </button>
   <Deck showBack={true} {cards} />
+{/if}
+{#if loading}
+  <div class="loading-screen">
+    <h1>Preparing for Download...</h1>
+  </div>
 {/if}
