@@ -1,5 +1,6 @@
 export default (evt, callback) => {
   const files = evt.target.files; // FileList object
+  console.log(files);
   const reader = new FileReader();
   reader.onerror = () => {
     reader.abort();

@@ -15,7 +15,9 @@ body {
   font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
-
+h1 {
+  color: #1162a1;
+}
 a {
   color: rgb(0, 100, 200);
   text-decoration: none;

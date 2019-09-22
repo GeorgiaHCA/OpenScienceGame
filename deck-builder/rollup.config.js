@@ -6,6 +6,7 @@ import { terser } from "rollup-plugin-terser";
 import includePaths from "rollup-plugin-includepaths";
 import builtins from "rollup-plugin-node-builtins";
 import globals from "rollup-plugin-node-globals";
+import json from "rollup-plugin-json";
 
 const production = !process.env.ROLLUP_WATCH;
 
@@ -22,6 +23,7 @@ export default {
   },
   external: ["jszip"],
   plugins: [
+    json(),
     commonjs(),
     globals(),
     builtins(),

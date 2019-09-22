@@ -1,4 +1,5 @@
 <script>
+  import Button from "./Button.svelte";
   import Deck from "./Deck/Deck.svelte";
   import Card from "./Card/Card.svelte";
   import readFile from "_utils/readFile.js";
@@ -6,30 +7,46 @@
   import filterObject from "_utils/filterObject.js";
 
   export let cards = {};
-  export let title = "Tools";
+  export let title = "Cards";
+  export let defaultCards = {};
   export let cardParser = cards => cards;
   export let displayFilter = cards => cards;
 
-  $: console.log(cards);
-
   $: displayCards = filterObject(cards, displayFilter);
 
-  const upload = evt =>
-    readFile(
-      evt,
-      data => (cards = { ...cards, ...cardParser(JSON.parse(data)) })
-    );
+  const updateCards = newCards => {
+    cards = { ...cards, ...cardParser(newCards) };
+  };
+  const loadDefault = () => {
+    updateCards(defaultCards);
+  };
+  const upload = evt => readFile(evt, data => updateCards(JSON.parse(data)));
 </script>
 
 <style>
-  h1 {
-    color: #1162a1;
+  div {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+  }
+  input {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
   }
 </style>
 
 <h1>{title}</h1>
 <div>
-  <span>Upload a json with your {title} cards</span>
-  <input type="file" accept=".json" on:change={upload} />
+  <input id="file-picker" type="file" accept=".json" on:change={upload} />
+  <Button primary onClick={loadDefault}>Load Default {title}</Button>
+  <Button>
+    <label for="file-picker">Upload Custom JSON</label>
+  </Button>
+
 </div>
 <Deck cards={displayCards} />

@@ -1,5 +1,6 @@
 <script>
   import GenericUploadScreen from "../_components/GenericUploadSceen.svelte";
+  import defaultCards from "../../../../cards/ideas.json";
   export let cards = {};
   const cardParser = cards => {
     for (let id in cards) {
@@ -17,4 +18,5 @@
   title="Ideas"
   {cardParser}
   displayFilter={card => card.type == 'Idea'}
+  {defaultCards}
   bind:cards />

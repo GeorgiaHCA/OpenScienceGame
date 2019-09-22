@@ -1,4 +1,5 @@
 <script>
+  import Button from "./_components/Button.svelte";
   import GenericUploadScreen from "./_components/GenericUploadSceen.svelte";
   import IdeaUploader from "./IdeaUploader/IdeaUploader.svelte";
   import EventUploader from "./EventUploader/EventUploader.svelte";
@@ -31,17 +32,6 @@
 </script>
 
 <style>
-  button {
-    flex-grow: 1;
-    border: none;
-    color: white;
-    margin: 0px 2px;
-    background-color: #1162a1;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  }
-  button:hover {
-    box-shadow: none;
-  }
   .button-container {
     display: flex;
     width: 100%;
@@ -51,9 +41,9 @@
 <svelte:component this={component} bind:cards />
 <div class="button-container">
   {#if stage > 1}
-    <button on:click={() => (stage -= 1)}>Back</button>
+    <Button onClick={() => (stage -= 1)}>Back</Button>
   {/if}
   {#if stage < 5}
-    <button on:click={() => (stage += 1)}>Next</button>
+    <Button onClick={() => (stage += 1)}>Next</Button>
   {/if}
 </div>

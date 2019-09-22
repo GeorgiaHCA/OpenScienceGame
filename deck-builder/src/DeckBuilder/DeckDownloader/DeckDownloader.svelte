@@ -1,4 +1,5 @@
 <script>
+  import Button from "../_components/Button.svelte";
   import Deck from "./Deck/Deck.svelte";
   import Card from "./Card/Card.svelte";
   import downloadCards from "_utils/downloadCards.js";
@@ -19,18 +20,9 @@
 </script>
 
 <style>
-  h1 {
-    color: #1162a1;
-  }
-  button {
-    border: none;
+  .button-container {
+    display: flex;
     width: 100%;
-    background-color: #41c178;
-    color: white;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  }
-  button:hover {
-    box-shadow: none;
   }
   .loading-screen {
     position: absolute;
@@ -49,13 +41,15 @@
   <Deck print={true} showBack={false} {cards} />
 {:else}
   <h1>Your Deck</h1>
-  <button on:click={download}>Download Cards</button>
-  <button
-    on:click={() => {
-      mode = 'print';
-    }}>
-    Print PDF
-  </button>
+  <div class="button-container">
+    <Button primary onClick={download}>Download Cards</Button>
+    <Button
+      onClick={() => {
+        mode = 'print';
+      }}>
+      Print PDF
+    </Button>
+  </div>
   <Deck showBack={true} {cards} />
 {/if}
 {#if loading}
