@@ -1,19 +1,6 @@
-*Psst — looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*
+# OpenScienceGame Deck Builder
 
----
-
-# svelte app
-
-This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/sveltejs/template.
-
-To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
-
-```bash
-npx degit sveltejs/template svelte-app
-cd svelte-app
-```
-
-*Note that you will need to have [Node.js](https://nodejs.org) installed.*
+This is a small web-app for building a customised deck of the open science game developed as part 2019 eLife Innovation Sprint.
 
 
 ## Get started
@@ -21,7 +8,7 @@ cd svelte-app
 Install the dependencies...
 
 ```bash
-cd svelte-app
+cd deck-builder
 npm install
 ```
 
@@ -35,6 +22,39 @@ Navigate to [localhost:5000](http://localhost:5000). You should see your app run
 
 
 ## Deploying to the web
+
+### With Heroku
+
+Install the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli#download-and-install) if you haven't already.
+
+Login to your Heroku account by running
+
+```
+heroku login
+```
+To create a new app run (if you're already set up skip this step)
+
+```
+heruko create
+```
+
+To push changes from `my-branch` to the Heroku app run
+
+```
+git push heroku my-branch:master
+
+```
+
+To see if it's worked run
+
+```
+heroku open
+```
+For debugging run
+
+```
+heroku logs --tail
+```
 
 ### With [now](https://zeit.co/now)
 
