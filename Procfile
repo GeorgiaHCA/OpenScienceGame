@@ -1,0 +1,1 @@
+web: cd deck-builder && npm build && npm start
