@@ -171,6 +171,16 @@
       { "type": "Access", "id": "D4" }
     ]
   },
+  "D5": {
+    "type": "Idea",
+    "subType": "Data Set",
+    "icon": "icons/propensity.svg",
+    "name": "Population Sequence Database",
+    "description": null,
+    "copies": 1,
+    "cost": 1,
+    "requirements": [{ "subType": "Access", "id": "M1" }]
+  },
   "A5": {
     "type": "Idea",
     "subType": "Analytical Method",

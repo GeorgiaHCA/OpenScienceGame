@@ -8,14 +8,14 @@
         "type": "Research",
         "target": "Experimental Methods",
         "magnitude": 1,
-        "description": "Takes 1 less Action to Research Experimental Methods"
+        "description": "Researching Experimental Methods takes 1 less Action"
       }
     ],
     "limitations": [
       {
         "type": "Publish",
         "target": "Research Outputs",
-        "description": "Can only Publish with Restricted Access"
+        "description": "Is not allowed to Publish Open Access"
       }
     ],
     "objectives": [
@@ -34,7 +34,7 @@
         "type": "Research",
         "target": "Data Sets",
         "magnitude": 1,
-        "description": "Takes 1 fewer Action to Research Data Sets."
+        "description": "Researching Data Sets takes 1 less Action."
       }
     ],
     "limitations": [
@@ -42,7 +42,7 @@
         "type": "Research",
         "target": "Analytical Methods",
         "magnitude": 1,
-        "description": "Takes 1 additional Action to Research Analytical Methods."
+        "description": "Researching Analytical Methods takes 1 more Action."
       }
     ],
     "objectives": [
@@ -59,28 +59,16 @@
     "description": null,
     "skills": [
       {
-        "type": "Research",
-        "target": "Insights",
-        "magnitude": 1,
-        "description": "Takes 1 fewer Action to Research Insights."
-      },
-      {
         "type": "Forsight",
         "cost": 2,
-        "description": "For 2 Actions, look at the top 3 cards on the Ideas Deck and rearrange in any order."
+        "description": "Can use an Action to look at the top 3 cards on the Ideas Deck and rearrange in any order."
       }
     ],
     "limitations": [
       {
         "type": "Publish",
         "target": "Research Outputs",
-        "description": "Can only Publish with Restricted Access."
-      },
-      {
-        "type": "Publish",
-        "target": "Analytical Methods",
-        "magnitude": 1,
-        "description": "Takes 1 additional Action to Publish Analytical Methods."
+        "description": "Does not Publish Open Access"
       }
     ],
     "objectives": [
@@ -100,7 +88,7 @@
         "type": "Teach",
         "target": "Tools",
         "magnitude": 1,
-        "description": "Takes 1 fewer Action to Teach a Tool to another Player."
+        "description": "Teaching Tools to other Players takes 1 less Action."
       }
     ],
     "limitations": [
@@ -108,7 +96,7 @@
         "type": "Research",
         "target": "Experimental Methods",
         "magnitude": 1,
-        "description": "Takes 1 additional Action to Research Experimental Methods."
+        "description": "Researching Experimental Methods takes 1 more Action."
       }
     ],
     "objectives": [
@@ -128,20 +116,14 @@
         "type": "Research",
         "target": "Analytical Methods",
         "magnitude": 1,
-        "description": "Takes 1 fewer Action to Research Analytical Methods."
-      },
-      {
-        "type": "Publish",
-        "target": "Analytical Methods",
-        "magnitude": 1,
-        "description": "Takes 1 fewer Action to Publish Analytical Methods."
+        "description": "Researching Analytical Methods takes 1 less Action."
       }
     ],
     "limitations": [
       {
         "type": "Access",
         "target": "Research Outputs",
-        "description": "Cannot Access Restricted Access Research Outputs."
+        "description": "Can only use Open Access Research Outputs."
       }
     ],
     "objectives": [
@@ -160,14 +142,14 @@
       {
         "type": "Proxy Publish",
         "cost": 2,
-        "description": "For 2 Actions you can Publish the Research Output of another Player with Open Access."
+        "description": "Can use an Action to Publish another Players Research Output with Open Access."
       }
     ],
     "limitations": [
       {
         "type": "Research",
         "target": "Analytical Methods",
-        "description": "Takes 1 additional Action to Research Analytical Methods."
+        "description": "Researching Analytical Methods take 1 more Action."
       }
     ],
     "objectives": [
@@ -193,7 +175,7 @@
       {
         "type": "Research",
         "target": "Insights",
-        "description": "Takes 1 additional Action to Research Insights."
+        "description": "Researching Insights takes 1 more Action."
       }
     ],
     "objectives": [
@@ -213,13 +195,13 @@
         "type": "Research",
         "target": "Ideas",
         "magnitude": 1,
-        "description": "Researching Ideas takes 1 fewer Action"
+        "description": "Researching Ideas takes 1 less Action"
       }
     ],
     "limitations": [
       {
         "type": "Access",
-        "description": "Cannot Access Restricted Access Research Outputs."
+        "description": "Can only use Open Access Research Outputs."
       }
     ],
     "objectives": [
@@ -238,14 +220,14 @@
       {
         "type": "Search",
         "cost": 2,
-        "description": "For 2 Actions, Search the Ideas Deck for any Idea and add it to your Hand then reshuffle the Ideas Deck."
+        "description": "Can use 2 Actions to search the Ideas Deck for any Idea. Add it to your Hand, then reshuffle the Ideas Deck."
       }
     ],
     "limitations": [
       {
         "type": "Research",
         "target": "Ideas",
-        "description": "Takes 1 additional Action to Research Ideas."
+        "description": "Researching any Ideas takes 1 more Action."
       }
     ],
     "objectives": [

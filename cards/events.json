@@ -10,7 +10,7 @@
         "type": "Access Flip",
         "target": "Research Outputs",
         "magnitude": 1,
-        "description": "Convert 1 of your Restricted Access Research Outputs to Open Access"
+        "description": "Flip 1 of your Restricted Access Research Outputs to Open Access"
       }
     ]
   },
@@ -40,7 +40,7 @@
         "type": "Research",
         "target": "Data Sets",
         "magnitude": -1,
-        "description": "Takes 1 more Action to Research a Data Set"
+        "description": "Research Data Sets takes you 1 more Action"
       }
     ]
   },
@@ -70,7 +70,7 @@
         "type": "Publish Restriction",
         "target": "Research Outputs",
         "magnitude": -1,
-        "description": "You can no longer Publish Research Outputs Open Access"
+        "description": "You can no longer use Open Access Publishing."
       }
     ]
   },
@@ -114,7 +114,7 @@
       {
         "type": "Exchange Ideas",
         "magnitude": 1,
-        "description": "Swap 1 Idea with another Player"
+        "description": "Exchange 1 Idea with another Player"
       }
     ]
   },
@@ -141,7 +141,7 @@
       {
         "type": "Action Restriction",
         "magnitude": 1,
-        "description": "Take 1 Fewer Action per turn"
+        "description": "Take 1 less Action per turn"
       }
     ]
   },
@@ -170,7 +170,7 @@
         "type": "Research Bonus",
         "target": "Data Sets",
         "magnitude": 1,
-        "description": "Researching Data Sets costs 1 fewer Action"
+        "description": "Researching Data Sets costs 1 less Action"
       }
     ]
   },
@@ -183,7 +183,7 @@
     "effects": [
       {
         "type": "Role Swap",
-        "description": "You must swap your Role with an unused Role of your choice"
+        "description": "Swap your Role with an unused Role of your choice"
       }
     ]
   },
@@ -230,7 +230,7 @@
         "type": "Retraction",
         "target": "Insights",
         "magnitude": 1,
-        "description": "Return 1 Published Insight back into the Ideas Deck"
+        "description": "Return 1 Published Insight to the Ideas Deck"
       }
     ]
   },

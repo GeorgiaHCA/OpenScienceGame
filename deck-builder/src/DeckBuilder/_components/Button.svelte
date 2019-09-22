@@ -20,6 +20,12 @@
     box-sizing: border-box;
     text-align: center;
   }
+
+  @media print {
+    button {
+      display: none;
+    }
+  }
   button:focus,
   button:hover {
     box-shadow: none;

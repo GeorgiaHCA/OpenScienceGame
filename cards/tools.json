@@ -11,7 +11,7 @@
         "type": "Publish",
         "target": "Experimental Methods",
         "magnitude": -1,
-        "description": "Takes 1 less Action to Publish a Experimental Method"
+        "description": "Publishing Experimental Methods takes 1 less Action"
       }
     ]
   },
@@ -27,7 +27,7 @@
         "type": "Publish",
         "target": "Analytical Methods",
         "magnitude": -1,
-        "description": "Takes 1 less Action to Publish a Analytical Method"
+        "description": "Publishing Analytical Methods takes 1 less Action"
       }
     ]
   },
@@ -43,7 +43,7 @@
         "type": "Publish",
         "target": "Data Sets",
         "magnitude": -1,
-        "description": "Takes 1 less Action to Publish a Data Set"
+        "description": "Publishing Data Sets takes 1 less Action"
       }
     ]
   },
@@ -59,7 +59,7 @@
         "type": "Publish",
         "target": "Insights",
         "magnitude": -1,
-        "description": "Takes 1 less Action to Publish a Insight"
+        "description": "Publishing Insights takes 1 less Action"
       }
     ]
   },
@@ -75,7 +75,7 @@
         "type": "Research",
         "target": "Experimental Methods",
         "magnitude": -1,
-        "description": "Takes 1 less Action to Research an Experimental Method"
+        "description": "Researching Experimental Methods takes 1 less Action"
       }
     ]
   },
@@ -91,7 +91,7 @@
         "type": "Research",
         "target": "Data Sets",
         "magnitude": -1,
-        "description": "Takes 1 less Action to Research an Data Set"
+        "description": "Researching Data Sets takes 1 less Action"
       }
     ]
   },
@@ -107,7 +107,7 @@
         "type": "Research",
         "target": "Analytical Methods",
         "magnitude": -1,
-        "description": "Takes 1 less Action to Research an Analytical Method"
+        "description": "Researching Analytical Methods takes 1 less Action"
       }
     ]
   },
@@ -122,7 +122,7 @@
       {
         "type": "Action",
         "magnitude": 1,
-        "description": "Takes 1 extra Action per turn"
+        "description": "Take 1 extra Action per turn"
       }
     ]
   },
@@ -136,7 +136,7 @@
     "effects": [
       {
         "type": "Access",
-        "description": "You now have Access to Restricted Access Research Outputs"
+        "description": "You now have Access to all Restricted Access Research Outputs"
       }
     ]
   },
