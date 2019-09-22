@@ -40,7 +40,7 @@
         "type": "Research",
         "target": "Data Sets",
         "magnitude": -1,
-        "description": "Research Data Sets takes you 1 more Action"
+        "description": "Researching Data Sets takes you 1 more Action"
       }
     ]
   },
