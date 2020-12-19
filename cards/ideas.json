@@ -1,0 +1,263 @@
+{
+  "M1": {
+    "type": "Idea",
+    "subType": "Experimental Method",
+    "icon": "icons/oncogene.svg",
+    "name": "Nanopore Sequencing",
+    "description": null,
+    "copies": 2,
+    "cost": 1,
+    "requirements": []
+  },
+  "D1": {
+    "type": "Idea",
+    "subType": "Data Set",
+    "icon": "icons/oncogene.svg",
+    "name": "Tumour Genome Sequence",
+    "description": null,
+    "copies": 2,
+    "cost": 1,
+    "requirements": [{ "type": "Access", "id": "M1" }]
+  },
+  "A1": {
+    "type": "Idea",
+    "subType": "Analytical Method",
+    "icon": "icons/oncogene.svg",
+    "name": "Genome Sequence Comparison",
+    "description": null,
+    "copies": 2,
+    "cost": 1,
+    "requirements": []
+  },
+  "I1": {
+    "type": "Idea",
+    "subType": "Insight",
+    "icon": "icons/oncogene.svg",
+    "name": "Find Oncogene",
+    "description": null,
+    "copies": 2,
+    "cost": 1,
+    "requirements": [
+      { "type": "Access", "id": "A1" },
+      { "type": "Access", "id": "D1" }
+    ]
+  },
+  "M2": {
+    "type": "Idea",
+    "subType": "Experimental Method",
+    "icon": "icons/tumor-kill.svg",
+    "name": "Compound Library Synthesis & Screening",
+    "description": null,
+    "copies": 2,
+    "cost": 1,
+    "requirements": []
+  },
+  "D2": {
+    "type": "Idea",
+    "subType": "Data Set",
+    "icon": "icons/tumor-kill.svg",
+    "name": "Fluorescence Assay Measurements",
+    "description": null,
+    "copies": 2,
+    "cost": 1,
+    "requirements": [{ "type": "Access", "id": "M2" }]
+  },
+  "A2": {
+    "type": "Idea",
+    "subType": "Analytical Method",
+    "icon": "icons/tumor-kill.svg",
+    "name": "T-tests",
+    "description": null,
+    "copies": 2,
+    "cost": 1,
+    "requirements": []
+  },
+  "I2": {
+    "type": "Idea",
+    "subType": "Insight",
+    "icon": "icons/tumor-kill.svg",
+    "name": "Find Tumor Killing Compound",
+    "description": null,
+    "copies": 2,
+    "cost": 1,
+    "requirements": [
+      { "type": "Access", "id": "A2" },
+      { "type": "Access", "id": "D2" }
+    ]
+  },
+  "M3": {
+    "type": "Idea",
+    "subType": "Experimental Method",
+    "icon": "icons/biomarker.svg",
+    "name": "Phage Display",
+    "description": null,
+    "copies": 2,
+    "cost": 1,
+    "requirements": []
+  },
+  "D3": {
+    "type": "Idea",
+    "subType": "Data Set",
+    "icon": "icons/biomarker.svg",
+    "name": "Fragment Sequences",
+    "description": null,
+    "copies": 2,
+    "cost": 1,
+    "requirements": [{ "type": "Access", "id": "M3" }]
+  },
+  "A3": {
+    "type": "Idea",
+    "subType": "Analytical Method",
+    "icon": "icons/biomarker.svg",
+    "name": "Sequence Alignment",
+    "description": null,
+    "copies": 2,
+    "cost": 1,
+    "requirements": []
+  },
+  "I3": {
+    "type": "Idea",
+    "subType": "Insight",
+    "icon": "icons/biomarker.svg",
+    "name": "Find Tumor Biomarker",
+    "description": null,
+    "copies": 2,
+    "cost": 1,
+    "requirements": [
+      { "type": "Access", "id": "A3" },
+      { "type": "Access", "id": "D3" }
+    ]
+  },
+  "M4": {
+    "type": "Idea",
+    "subType": "Experimental Method",
+    "icon": "icons/delivery.svg",
+    "name": "Drug Delivery Assay",
+    "description": null,
+    "copies": 2,
+    "cost": 1,
+    "requirements": []
+  },
+  "D4": {
+    "type": "Idea",
+    "subType": "Data Set",
+    "icon": "icons/delivery.svg",
+    "name": "Microscopy Images",
+    "description": null,
+    "copies": 2,
+    "cost": 1,
+    "requirements": [{ "type": "Access", "id": "M4" }]
+  },
+  "A4": {
+    "type": "Idea",
+    "subType": "Analytical Method",
+    "icon": "icons/delivery.svg",
+    "name": "Image Processing",
+    "description": null,
+    "copies": 2,
+    "cost": 1,
+    "requirements": []
+  },
+  "I4": {
+    "type": "Idea",
+    "subType": "Insight",
+    "icon": "icons/delivery.svg",
+    "name": "Find Drug Delivery Method",
+    "description": null,
+    "copies": 2,
+    "cost": 1,
+    "requirements": [
+      { "type": "Access", "id": "A4" },
+      { "type": "Access", "id": "D4" }
+    ]
+  },
+  "D5": {
+    "type": "Idea",
+    "subType": "Data Set",
+    "icon": "icons/propensity.svg",
+    "name": "Population Sequence Database",
+    "description": null,
+    "copies": 1,
+    "cost": 1,
+    "requirements": [{ "subType": "Access", "id": "M1" }]
+  },
+  "A5": {
+    "type": "Idea",
+    "subType": "Analytical Method",
+    "icon": "icons/propensity.svg",
+    "name": "Population Analysis",
+    "description": null,
+    "copies": 1,
+    "cost": 1,
+    "requirements": [{ "subType": "Access", "id": "A2" }]
+  },
+  "I5": {
+    "type": "Idea",
+    "subType": "Insight",
+    "icon": "icons/propensity.svg",
+    "name": "Find Oncogene Propensity",
+    "description": null,
+    "copies": 1,
+    "cost": 1,
+    "requirements": [
+      { "type": "Access", "id": "A5" },
+      { "type": "Access", "id": "I1" }
+    ]
+  },
+  "M6": {
+    "type": "Idea",
+    "subType": "Experimental Method",
+    "icon": "icons/catalyst.svg",
+    "name": "Chemical Synthesis",
+    "description": null,
+    "copies": 1,
+    "cost": 1,
+    "requirements": []
+  },
+  "D6": {
+    "type": "Idea",
+    "subType": "Data Set",
+    "icon": "icons/catalyst.svg",
+    "name": "NMR Spectra",
+    "description": null,
+    "copies": 1,
+    "cost": 1,
+    "requirements": [{ "type": "Access", "id": "A6" }]
+  },
+  "A6": {
+    "type": "Idea",
+    "subType": "Analytical Method",
+    "icon": "icons/catalyst.svg",
+    "name": "Spectrum Analysis",
+    "description": null,
+    "copies": 1,
+    "cost": 1,
+    "requirements": []
+  },
+  "I6": {
+    "type": "Idea",
+    "subType": "Insight",
+    "icon": "icons/catalyst.svg",
+    "name": "Find New Catalyst",
+    "description": null,
+    "copies": 1,
+    "cost": 1,
+    "requirements": [
+      { "type": "Access", "id": "A6" },
+      { "type": "Access", "id": "D6" }
+    ]
+  },
+  "I7": {
+    "type": "Idea",
+    "subType": "Insight",
+    "icon": "icons/resistance.svg",
+    "name": "Identify Resistance Gene",
+    "description": null,
+    "copies": 1,
+    "cost": 1,
+    "requirements": [
+      { "type": "Access", "id": "D3" },
+      { "type": "Access", "id": "A2" }
+    ]
+  }
+}

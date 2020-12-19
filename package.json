@@ -1,0 +1,21 @@
+{
+  "name": "opensciencegame",
+  "version": "1.0.0",
+  "description": "A card game to teach and encourage people to use open science",
+  "cacheDirectories": [
+    "deck-builder/node_modules"
+  ],
+  "scripts": {
+    "postinstall": "cd deck-builder && npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GeorgiaHCA/OpenScienceGame.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GeorgiaHCA/OpenScienceGame/issues"
+  },
+  "homepage": "https://github.com/GeorgiaHCA/OpenScienceGame#readme"
+}

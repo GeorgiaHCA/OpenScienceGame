@@ -1,259 +1,241 @@
-[
-    {
-        "id": "R1",
-        "name": "PhD Student",
-        "description": null,
-        "skills": [
-            {
-                "type": "Research",
-                "target": "Experimental Methods",
-                "magnitude": 1,
-                "description": "Takes 1 less Action to Research Experimental Methods"
-            }
-        ],
-        "limitations": [
-            {
-                "type": "Publish",
-                "target": "Research Outputs",
-                "description": "Can only Publish with Restricted Access"
-            }
-        ],
-        "objectives": [
-            {
-                "type": "Learn",
-                "description": "End the game with the most Tools in Hand."
-            }
-        ]
-    },
-    {
-        "id": "R2",
-        "name": "Post Doc",
-        "description": null,
-        "skills": [
-            {
-                "type": "Research",
-                "target": "Data Sets",
-                "magnitude": 1,
-                "description": "Takes 1 fewer Action to Research Data Sets."
-            }
-        ],
-        "limitations": [
-            {
-                "type": "Research",
-                "target": "Analytical Methods",
-                "magnitude": 1,
-                "description": "Takes 1 additional Action to Research Analytical Methods."
-            }
-        ],
-        "objectives": [
-            {
-                "type": "Publish",
-                "target": "Research Outputs",
-                "description": "End the game with the most Published Research Outputs"
-            }
-        ]
-    },
-    {
-        "id": "R3",
-        "name": "Professor",
-        "description": null,
-        "skills": [
-            {
-                "type": "Research",
-                "target": "Insights",
-                "magnitude": 1,
-                "description": "Takes 1 fewer Action to Research Insights."
-            },
-            {
-                "type": "Forsight",
-                "cost": 2,
-                "description": "For 2 Actions, look at the top 3 cards on the Ideas Deck and rearrange in any order."
-            }
-        ],
-        "limitations": [
-            {
-                "type": "Publish",
-                "target": "Research Outputs",
-                "description": "Can only Publish with Restricted Access."
-            },
-            {
-                "type": "Publish",
-                "target": "Analytical Methods",
-                "magnitude": 1,
-                "description": "Takes 1 additional Action to Publish Analytical Methods."
-            }
-        ],
-        "objectives": [
-            {
-                "type": "Publish",
-                "target": "Insights",
-                "description": "End the game with the most Published Insights"
-            }
-        ]
-    },
-    {
-        "id": "R4",
-        "name": "Teaching Fellow",
-        "description": null,
-        "skills": [
-            {
-                "type": "Teach",
-                "target": "Tools",
-                "magnitude": 1,
-                "description": "Takes 1 fewer Action to Teach a Tool to another Player."
-            }
-        ],
-        "limitations": [
-            {
-                "type": "Research",
-                "target": "Experimental Methods",
-                "magnitude": 1,
-                "description": "Takes 1 additional Action to Research Experimental Methods."
-            }
-        ],
-        "objectives": [
-            {
-                "type": "Teach",
-                "target": "Tools",
-                "description": "End the game with no Tools left to Teach."
-            }
-        ]
-    },
-    {
-        "id": "R5",
-        "name": "Data Scientist",
-        "description": null,
-        "skills": [
-            {
-                "type": "Research",
-                "target": "Analytical Methods",
-                "magnitude": 1,
-                "description": "Takes 1 fewer Action to Research Analytical Methods."
-            },
-            {
-                "type": "Publish",
-                "target": "Analytical Methods",
-                "magnitude": 1,
-                "description": "Takes 1 fewer Action to Publish Analytical Methods."
-            }
-        ],
-        "limitations": [
-            {
-                "type": "Access",
-                "target": "Research Outputs",
-                "description": "Cannot Access Restricted Access Research Outputs."
-            }
-        ],
-        "objectives": [
-            {
-                "type": "Publish",
-                "target": "Research Outputs",
-                "description": "End the game with the most Open Access Research Outputs"
-            }
-        ]
-    },
-    {
-        "id": "R6",
-        "name": "Librarian",
-        "description": null,
-        "skills": [
-            {
-                "type": "Proxy Publish",
-                "cost": 2,
-                "description": "For 2 Actions you can Publish the Research Output of another Player with Open Access."
-            }
-        ],
-        "limitations": [
-            {
-                "type": "Research",
-                "target": "Analytical Methods",
-                "description": "Takes 1 additional Action to Research Analytical Methods."
-            }
-        ],
-        "objectives": [
-            {
-                "type": "Publish",
-                "target": "Research Outputs",
-                "description": "Ensure there are no unpublished Research Outputs at the end of the game."
-            }
-        ]
-    },
-    {
-        "id": "R7",
-        "name": "Master's Student",
-        "description": null,
-        "skills": [
-            {
-                "type": "Tools",
-                "magnitude": 1,
-                "description": "Can use 3 Tools at once"
-            }
-        ],
-        "limitations": [
-            {
-                "type": "Research",
-                "target": "Insights",
-                "description": "Takes 1 additional Action to Research Insights."
-            }
-        ],
-        "objectives": [
-            {
-                "type": "Research",
-                "target": "Insights",
-                "description": "End the game with at least 1 Researched Insight."
-            }
-        ]
-    },
-    {
-        "id": "R8",
-        "name": "Independant Researcher",
-        "description": null,
-        "skills": [
-            {
-                "type": "Research",
-                "target": "Ideas",
-                "magnitude": 1,
-                "description": "Researching Ideas takes 1 fewer Action"
-            }
-        ],
-        "limitations": [
-            {
-                "type": "Access",
-                "description": "Cannot Access Restricted Access Research Outputs."
-            }
-        ],
-        "objectives": [
-            {
-                "type": "Research",
-                "target": "Ideas",
-                "description": "End the game with the most Researched Ideas."
-            }
-        ]
-    },
-    {
-        "id": "R9",
-        "name": "Undergraduate",
-        "description": null,
-        "skills": [
-            {
-                "type": "Search",
-                "cost": 2,
-                "description": "For 2 Actions, Search the Ideas Deck for any Idea and add it to your Hand then reshuffle the Ideas Deck."
-            }
-        ],
-        "limitations": [
-            {
-                "type": "Research",
-                "target": "Ideas",
-                "description": "Takes 1 additional Action to Research Ideas."
-            }
-        ],
-        "objectives": [
-            {
-                "type": "Research",
-                "target": "Experimental Methods",
-                "description": "End the game with the most Researched Experimental Methods."
-            }
-        ]
-    },
-]
+{
+  "R1": {
+    "type": "Role",
+    "name": "PhD Student",
+    "description": null,
+    "skills": [
+      {
+        "type": "Research",
+        "target": "Experimental Methods",
+        "magnitude": 1,
+        "description": "Researching Experimental Methods takes 1 less Action"
+      }
+    ],
+    "limitations": [
+      {
+        "type": "Publish",
+        "target": "Research Outputs",
+        "description": "Is not allowed to Publish Open Access"
+      }
+    ],
+    "objectives": [
+      {
+        "type": "Learn",
+        "description": "End the game with the most Tools in Hand."
+      }
+    ]
+  },
+  "R2": {
+    "name": "Post Doc",
+    "type": "Role",
+    "description": null,
+    "skills": [
+      {
+        "type": "Research",
+        "target": "Data Sets",
+        "magnitude": 1,
+        "description": "Researching Data Sets takes 1 less Action."
+      }
+    ],
+    "limitations": [
+      {
+        "type": "Research",
+        "target": "Analytical Methods",
+        "magnitude": 1,
+        "description": "Researching Analytical Methods takes 1 more Action."
+      }
+    ],
+    "objectives": [
+      {
+        "type": "Publish",
+        "target": "Research Outputs",
+        "description": "End the game with the most Published Research Outputs"
+      }
+    ]
+  },
+  "R3": {
+    "type": "Role",
+    "name": "Professor",
+    "description": null,
+    "skills": [
+      {
+        "type": "Forsight",
+        "cost": 2,
+        "description": "Can use an Action to look at the top 3 cards on the Ideas Deck and rearrange in any order."
+      }
+    ],
+    "limitations": [
+      {
+        "type": "Publish",
+        "target": "Research Outputs",
+        "description": "Does not Publish Open Access"
+      }
+    ],
+    "objectives": [
+      {
+        "type": "Publish",
+        "target": "Insights",
+        "description": "End the game with the most Published Insights"
+      }
+    ]
+  },
+  "R4": {
+    "type": "Role",
+    "name": "Teaching Fellow",
+    "description": null,
+    "skills": [
+      {
+        "type": "Teach",
+        "target": "Tools",
+        "magnitude": 1,
+        "description": "Teaching Tools to other Players takes 1 less Action."
+      }
+    ],
+    "limitations": [
+      {
+        "type": "Research",
+        "target": "Experimental Methods",
+        "magnitude": 1,
+        "description": "Researching Experimental Methods takes 1 more Action."
+      }
+    ],
+    "objectives": [
+      {
+        "type": "Teach",
+        "target": "Tools",
+        "description": "End the game with no Tools left to Teach."
+      }
+    ]
+  },
+  "R5": {
+    "type": "Role",
+    "name": "Data Scientist",
+    "description": null,
+    "skills": [
+      {
+        "type": "Research",
+        "target": "Analytical Methods",
+        "magnitude": 1,
+        "description": "Researching Analytical Methods takes 1 less Action."
+      }
+    ],
+    "limitations": [
+      {
+        "type": "Access",
+        "target": "Research Outputs",
+        "description": "Can only use Open Access Research Outputs."
+      }
+    ],
+    "objectives": [
+      {
+        "type": "Publish",
+        "target": "Research Outputs",
+        "description": "End the game with the most Open Access Research Outputs"
+      }
+    ]
+  },
+  "R6": {
+    "type": "Role",
+    "name": "Librarian",
+    "description": null,
+    "skills": [
+      {
+        "type": "Proxy Publish",
+        "cost": 2,
+        "description": "Can use an Action to Publish another Players Research Output with Open Access."
+      }
+    ],
+    "limitations": [
+      {
+        "type": "Research",
+        "target": "Analytical Methods",
+        "description": "Researching Analytical Methods take 1 more Action."
+      }
+    ],
+    "objectives": [
+      {
+        "type": "Publish",
+        "target": "Research Outputs",
+        "description": "Ensure there are no unpublished Research Outputs at the end of the game."
+      }
+    ]
+  },
+  "R7": {
+    "type": "Role",
+    "name": "Master's Student",
+    "description": null,
+    "skills": [
+      {
+        "type": "Tools",
+        "magnitude": 1,
+        "description": "Can use 3 Tools at once"
+      }
+    ],
+    "limitations": [
+      {
+        "type": "Research",
+        "target": "Insights",
+        "description": "Researching Insights takes 1 more Action."
+      }
+    ],
+    "objectives": [
+      {
+        "type": "Research",
+        "target": "Insights",
+        "description": "End the game with at least 1 Researched Insight."
+      }
+    ]
+  },
+  "R8": {
+    "type": "Role",
+    "name": "Independent Researcher",
+    "description": null,
+    "skills": [
+      {
+        "type": "Research",
+        "target": "Ideas",
+        "magnitude": 1,
+        "description": "Researching Ideas takes 1 less Action"
+      }
+    ],
+    "limitations": [
+      {
+        "type": "Access",
+        "description": "Can only use Open Access Research Outputs."
+      }
+    ],
+    "objectives": [
+      {
+        "type": "Research",
+        "target": "Ideas",
+        "description": "End the game with the most Researched Ideas."
+      }
+    ]
+  },
+  "R9": {
+    "type": "Role",
+    "name": "Undergraduate",
+    "description": null,
+    "skills": [
+      {
+        "type": "Search",
+        "cost": 2,
+        "description": "Can use 2 Actions to search the Ideas Deck for any Idea. Add it to your Hand, then reshuffle the Ideas Deck."
+      }
+    ],
+    "limitations": [
+      {
+        "type": "Research",
+        "target": "Ideas",
+        "description": "Researching any Ideas takes 1 more Action."
+      }
+    ],
+    "objectives": [
+      {
+        "type": "Research",
+        "target": "Experimental Methods",
+        "description": "End the game with the most Researched Experimental Methods."
+      }
+    ]
+  }
+}
